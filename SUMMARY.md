@@ -1,6 +1,6 @@
 # Table of contents
 
-* [git-book](README.md)
+* [😎 Today I Learned](README.md)
 * [JPA](jpa/README.md)
   * [소개(about JPA)](jpa/about-jpa.md)
   * [영속성 컨텍스트(Persistence Context)](jpa/persistence-context.md)

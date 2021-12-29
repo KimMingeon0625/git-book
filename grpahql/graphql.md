@@ -11,7 +11,7 @@ description: 기본적인 지식 및 Apollo를 활용한 simple project
 * sql은 백엔드에서 주로 작성하지만, gql의 경우 주로 클라이언트 시스템에서 작성, 호출.
 * OverFetching, UnderFetching
 
-![출처 : https://2020.stateofjs.com/en-US/technologies/datalayer/](<../.gitbook/assets/image (10).png>)
+![출처 : https://2020.stateofjs.com/en-US/technologies/datalayer/](<../.gitbook/assets/image (13).png>)
 
 {% embed url="https://graphql.org/users" %}
 graphQL을 적용한 기업
@@ -32,7 +32,7 @@ graphQL을 적용한 기업
 
       (OverFetching : 불필요한 데이터가 포함됨 / UnderFetching : 여러번의 API 호출)
 
-![REST API와 GraphQL API의 사용 (출처 : https://blog.apollographql.com/graphql-vs-rest-5d425123e34b)](<../.gitbook/assets/image (14).png>)
+![REST API와 GraphQL API의 사용 (출처 : https://blog.apollographql.com/graphql-vs-rest-5d425123e34b)](<../.gitbook/assets/image (39).png>)
 
 ### GraphQL 구조
 
@@ -41,7 +41,7 @@ graphQL을 적용한 기업
 
     (RESTAPI와 같은 개념적인 규약)
 
-![(좌) request 쿼리문 (우) response / In ApolloServer](<../.gitbook/assets/image (13).png>)
+![(좌) request 쿼리문 (우) response / In ApolloServer](<../.gitbook/assets/image (36).png>)
 
 
 

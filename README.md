@@ -1,9 +1,6 @@
 # git-book
 
-{% content-ref url="jpa/" %}
-[jpa](jpa/)
-{% endcontent-ref %}
+JPA
 
-{% content-ref url="jpa/about-jpa.md" %}
-[about-jpa.md](jpa/about-jpa.md)
-{% endcontent-ref %}
+* [https://app.gitbook.com/s/xjso2sUUzWlyxxfqqEWu/c/Jd5QvxjzXqbdtneYF2Os/jpa/about-jpa](jpa/about-jpa.md)
+*

@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/docker.webp
+cover: ../.gitbook/assets/docker.png
 coverY: 0
 ---
 

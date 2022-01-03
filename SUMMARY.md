@@ -24,7 +24,7 @@
   * [기본적인 도커 클라이언트 명령어(Docker command)](docker/docker-command.md)
   * [도커 이미지 만들기(Make image)](docker/make-image.md)
   * [도커를 이용한 Node.js 어플(Docker with Node.js App)](docker/node.js-docker-with-node.js-app.md)
-  * [Page 1](docker/page-1.md)
+  * [Docker Compose](docker/docker-compose.md)
   * [Page 2](docker/page-2.md)
   * [Page 3](docker/page-3.md)
   * [Page 4](docker/page-4.md)

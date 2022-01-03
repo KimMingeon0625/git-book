@@ -10,7 +10,7 @@ description: 카프카 빠르게 시작해보기
 
 #### EC2 Dashboard
 
-![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1).png>)
+![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1).png>)
 
 #### AMI 선택 화면
 

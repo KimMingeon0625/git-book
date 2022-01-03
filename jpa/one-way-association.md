@@ -65,7 +65,7 @@ ex) find(member) -> find(member.getTeamId)
 
 ### 객체 지향 모델링 (객체 연관관계 사용)
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 ```
 // Member Entity

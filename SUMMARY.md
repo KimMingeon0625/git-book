@@ -26,8 +26,6 @@
   * [도커를 이용한 Node.js 어플(Docker with Node.js App)](docker/node.js-docker-with-node.js-app.md)
   * [Docker Compose](docker/docker-compose.md)
   * [test & deploy](docker/test-and-deploy.md)
-  * [Page 3](docker/page-3.md)
-  * [Page 4](docker/page-4.md)
 * [Project](project/README.md)
   * [오! 톡해\~](https://machine-geon.tistory.com/30?category=839166)
   * [ANU\_IPSI](https://machine-geon.tistory.com/52?category=839166)

@@ -10,7 +10,7 @@ description: 카프카 빠르게 시작해보기
 
 #### EC2 Dashboard
 
-![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1).png>)
+![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 #### AMI 선택 화면
 
@@ -30,7 +30,7 @@ description: 카프카 빠르게 시작해보기
 
 #### 보안 그룹 규칙
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 * 로컬 터미널
 

@@ -10,11 +10,11 @@ description: 카프카 빠르게 시작해보기
 
 #### EC2 Dashboard
 
-![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1) (1).png>)
+![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
 #### AMI 선택 화면
 
-![프리 티어 사용가능한 Amazon Linex 2 AMI 선택](<../.gitbook/assets/image (1).png>)
+![프리 티어 사용가능한 Amazon Linex 2 AMI 선택](<../.gitbook/assets/image (2).png>)
 
 #### 인스턴스 유형 선택
 
@@ -22,11 +22,11 @@ description: 카프카 빠르게 시작해보기
 
 #### 인스턴스 시작 및 검토
 
-![마지막 확인 절차. 확인 뒤 시작하기](<../.gitbook/assets/image (15) (1).png>)
+![마지막 확인 절차. 확인 뒤 시작하기](<../.gitbook/assets/image (15) (1) (1).png>)
 
 #### 서버 접속을 위한 키 페어 설정
 
-![키 페어 름 test-kafka-server-key / 키 페어 다운로드](<../.gitbook/assets/image (7) (1).png>)
+![키 페어 름 test-kafka-server-key / 키 페어 다운로드](<../.gitbook/assets/image (7) (1) (1).png>)
 
 #### 보안 그룹 규칙
 

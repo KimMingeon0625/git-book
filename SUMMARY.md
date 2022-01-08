@@ -35,8 +35,7 @@
   * [Demacia](https://machine-geon.tistory.com/145?category=839166)
   * [당근?빠따!](https://machine-geon.tistory.com/147?category=839166)
   * [BorA](https://machine-geon.tistory.com/146?category=839166)
-* [HTTP](http.md)
-* [IT Knowledge](it-knowledge/README.md)
+* [IT Knowledge](it-knowledge.md)
   * [HTTP 웹 기본 지식](it-knowledge/http.md)
 * [JavaScript 기초 문법](javascript.md)
 

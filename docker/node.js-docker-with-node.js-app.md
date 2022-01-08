@@ -200,9 +200,9 @@ CMD ["node", "server.js"]
 
 ## Docker Volume
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 {% hint style="info" %}
 node\_modules = 종속성 다운로드 dir
@@ -212,7 +212,7 @@ vscode powerShell 환경 : $(pwd) ->${pwd}
 
 ![](<../.gitbook/assets/image (41).png>)
 
-![](<../.gitbook/assets/image (11).png>)![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (11) (1).png>)![](<../.gitbook/assets/image (28).png>)
 
 re-build 없이 매핑된 파일의 변경으로 적용.
 

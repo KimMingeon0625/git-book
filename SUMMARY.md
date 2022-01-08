@@ -36,12 +36,9 @@
   * [당근?빠따!](https://machine-geon.tistory.com/147?category=839166)
   * [BorA](https://machine-geon.tistory.com/146?category=839166)
 * [HTTP](http.md)
+* [IT Knowledge](it-knowledge.md)
 * [JavaScript 기초 문법](javascript.md)
 
 ## JAVA
 
 * [Annotation](java/annotation.md)
-
-***
-
-* [IT Knowledge](it-knowledge.md)

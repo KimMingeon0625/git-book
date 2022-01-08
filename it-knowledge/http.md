@@ -265,3 +265,12 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 ![](<../.gitbook/assets/image (16).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
+
+
+
+## HTTP 기본
+
+### 모든 것이 HTTP
+
+**HTTP(HyperText Transfer Protocol)**
+

@@ -73,7 +73,7 @@ CMD ["node", "server.js"]
 
 위코드로  Docker build 에러 발생.&#x20;
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 COPY package.json ./ 을 추가하여 package파일을 복사한다.
 
@@ -167,7 +167,7 @@ WorkDir 설정을 하는 경우, container 접속시 WorkDir이 첫화면이다.
 
 ## 어플리케이션 소스 변경으로 재빌드하는 문제
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (43) (1).png>)
 
 ## 재빌드 효율적으로 하는 법
 

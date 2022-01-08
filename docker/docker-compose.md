@@ -46,7 +46,7 @@ Docker compose down
 
 ## 운영환경을 위한 dockerFile
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ![](<../.gitbook/assets/image (9).png>)
 

@@ -21,7 +21,7 @@ description: one-way association
 
 ### 객체를 테이블에 맞추어 모델링 (연관 관계가없는 객체)
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 ```
 // Member Entity

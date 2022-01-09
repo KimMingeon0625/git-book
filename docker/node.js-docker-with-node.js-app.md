@@ -73,7 +73,7 @@ CMD ["node", "server.js"]
 
 위코드로  Docker build 에러 발생.&#x20;
 
-![](<../.gitbook/assets/image (18) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1).png>)
 
 COPY package.json ./ 을 추가하여 package파일을 복사한다.
 
@@ -121,7 +121,7 @@ local file을 복사한 것과 같이 network도 연결을 해주어야 한다.&
 Port mapping이 필요.
 {% endhint %}
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 docker run -p 5000:8080 mingeon/nodejs 를 통해 실행.
 
@@ -212,7 +212,7 @@ vscode powerShell 환경 : $(pwd) ->${pwd}
 
 ![](<../.gitbook/assets/image (41).png>)
 
-![](<../.gitbook/assets/image (11) (1).png>)![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (11) (1) (1).png>)![](<../.gitbook/assets/image (28).png>)
 
 re-build 없이 매핑된 파일의 변경으로 적용.
 

@@ -8,7 +8,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 ### 인터넷 통신
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 클라이언트에서 다른 클라이언트(컴퓨터)로 데이터를 보낼경우 위치에따라 위성, 해저광케이블, 기타 통신서버와 같은 노드들을 거쳐서 상대 클라이언트에 도달한다.
 
@@ -75,7 +75,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (21) (1).png>)
 
 {% hint style="info" %}
 SYN : 접속 요청&#x20;
@@ -258,7 +258,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
@@ -385,7 +385,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 스케일 아웃 - 수평 확장 유리
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 #### Statless
 
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (14).png>)![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (15).png>)![](<../.gitbook/assets/image (25).png>)
 
 
 
@@ -442,6 +442,26 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 * 같은 시간에 딱 맞추어 발생하는 대용량 트래픽
 * ex) 선착순 이벤트, 명절 KTX예약,  수업 등록
-* 수만명 ㅇ동시 요청
+* 수만명 동시 요청
 {% endhint %}
+
+
+
+### HTTP 메시지
+
+#### HTTP 메시지 구조
+
+![HTTP 메시지 구조](<../.gitbook/assets/image (21).png>)
+
+
+
+#### HTTP 요청 메시지
+
+![HTTP 요청 메시지 ](<../.gitbook/assets/image (18).png>)
+
+####
+
+#### HTTP 응답 메시지
+
+![HTTP 응답 메시지](<../.gitbook/assets/image (12).png>)
 

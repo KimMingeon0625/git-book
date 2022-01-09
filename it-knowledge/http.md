@@ -16,7 +16,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 송신/수신 클라이언트에서 정보를 주고받을 때 사용하는 정보 위주의 프로토콜
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 #### 역할
 
@@ -27,7 +27,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 * 패킷은 전송하고자 하는 데이터의 한 블록(payload)과 주소지 정보(발신지 주소, 목적지 주소), 관리정보(Header, IPv6와 같이 망이 패킷을 목적지까지 전달하는데 필요한)로 구성된다.
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 #### **IP 프로토콜의 한계**
 
@@ -52,7 +52,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 * 인터넷 계층 : 방대한 인터넷 계층에서 어디로 보낼지 경로를 선택하는 것이 IP게층이다. 이 자체로는 비연결 지향적이며 신뢰성이 없고 데이터를 전송한 이후 발생하는 문제에 대해서는 신경쓰지 않는다.
 * 네트워크 인터페이스 계층 : 물리적인 영역을 표준화 하는 계층으로 실제로 랜선을 꼽는 랜카드나 랜카드 드라이버등이 이에 속한다.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 1. 프로그램이 Hello,world! 메시지(Payload) 생성
 2. SOCKET 라이브러리를 통해 전달
@@ -142,7 +142,7 @@ ACK : 요청 수락
 * 전화번호부와 같은 역할
 * 도메인 명을 IP 주소로 변환
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 ## URI와 웹 브라우저 요청 흐름
 
@@ -158,7 +158,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ![](<../.gitbook/assets/image (43).png>)
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (30) (1).png>)
 
 **URI 뜻**
 
@@ -262,7 +262,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -403,4 +403,45 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 
 ### 비 연결성(connectionless)
+
+#### 연결을 유지하는 모델
+
+![](<../.gitbook/assets/image (14).png>)![](<../.gitbook/assets/image (25).png>)
+
+
+
+#### 연결을 유지하지 않는 모델
+
+![](<../.gitbook/assets/image (26).png>)![](<../.gitbook/assets/image (27).png>)
+
+#### 비 연결성
+
+* HTTP는 기본이 연결을 유지하지 않는 모델
+* 일반적으로 초 단위 이하의 빠른 속도로 응답
+* 1시간 동안 수천명이 서비스를 사용해도 실제 서버에서 동시 처리하는 요청은 수십개 이하로 매우 작음
+  * ex) 웹 브라우저에서 계속 연속해서 검색 버튼을 누르지는 않는다.
+* 서버 자원을 매우 효율적으로 사용할 수 있음
+
+#### 한계와 극복
+
+* TCP/IP 연결을 새로 맺어야 함 - 3 way handshake 시간 추가
+* 웹 브라우저로 사이트를 요청하면 HTMl 뿐만 아니라 자바스크립트, css, 추가 이미지 등등 수 많은 자원이 함께 다운로드
+* 지금은 HTTP 지속 연결(Persistent Connextions)로 문제 해결
+* HTTP/2, HTTP/3에서 더 많은 최적화
+
+#### HTTP 초기 - 연결, 종료 낭비
+
+![](<../.gitbook/assets/image (4).png>)
+
+#### HTTP 지속 연결(Persistent Connections)
+
+![](<../.gitbook/assets/image (3).png>)
+
+{% hint style="info" %}
+**스테이스리스를 기억하자**
+
+* 같은 시간에 딱 맞추어 발생하는 대용량 트래픽
+* ex) 선착순 이벤트, 명절 KTX예약,  수업 등록
+* 수만명 ㅇ동시 요청
+{% endhint %}
 

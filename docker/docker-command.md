@@ -184,7 +184,7 @@ docker exec -it \<container id> sh
 위를 통해 원하는 쉘 환경으로 접속 가능. ( sh 대신 bash, zsh, powershall, .... 사용 가능)
 {% endhint %}
 
-![](<../.gitbook/assets/image (30) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1).png>)
 
 {% hint style="info" %}
 터미널 환경 종료

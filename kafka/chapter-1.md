@@ -18,7 +18,7 @@ description: 들어가며
 
 링크드인에서는 복잡도를 낮추기 위해 신규 시스템을 개발 -> Apache Kafka
 
-![https://www.cloudkarafka.com/blog/2016-11-30-part1-kafka-for-beginners-what-is-apache-kafka.html](<../.gitbook/assets/image (14) (1) (1).png>)
+![https://www.cloudkarafka.com/blog/2016-11-30-part1-kafka-for-beginners-what-is-apache-kafka.html](<../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 * 프로듀서(Producer) : 데이터를 생산 (push)
 * 컨슈머(Consumer) : 데이터를 소비 (pull)

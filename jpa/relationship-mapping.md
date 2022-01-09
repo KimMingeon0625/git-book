@@ -46,7 +46,7 @@ description: relationship mapping
 
 ## 다대일 양방향
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 * 외래키가 있는 쪽이 연관관계의 주인
 * 양쪽을 서로 참조하도록 개발
@@ -66,7 +66,7 @@ description: relationship mapping
 
 ## 일대다 양방향 정리
 
-![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 * 해당 매핑은 공식존재 X
 * @JoinColumn(insertable=false, updatable=false)

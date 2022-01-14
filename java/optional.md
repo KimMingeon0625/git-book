@@ -11,13 +11,11 @@ Optional\<T>는 null이 올 수 있는 값을 감싸는 Wrapper 클래스.
 **Java 8** 에서 도입 되었으며, 각종 메소드를 통해 Null에 대응한다.
 
 {% hint style="info" %}
-Optional은 null 또는 실제 값을 value로 갖는 wrapper로 감싸서 NPE(NullPointerException)로부터 자유로워지기 위해 나온 Wrapper 클래스이다.&#x20;
+Optional은 null 또는 실제 값을 wrapper로 감싸서 NPE(NullPointerException)로부터 자유로워지기 위해 나온 Wrapper 클래스이다.
 
-따라서 Optional을 반환하는 메소드는 절대 null을 갖는 value를 반환해서는 안된다. 또한 Optional은 값을 Wrapping하고 다시 풀고, null일 경우에는 대체하는 함수를 호출하는 등의 오버헤드가 있으므로 성능이 저하될 수 있다. 그렇기 때문에 메소드의 반환 값이 절대 null이 아니라면 Optional을 사용하지 않는 것이 성능저하가 적다.&#x20;
+Optional을 반환하는 메소드는 절대 null을 갖는 value를 반환해서는 안된다. 또한 Optional은 값을 Wrapping하고 풀고, null일 경우에는 예외 대처 과정에서의 성능이 저하될 수 있다.
 
-즉, Optional은 메소드의 결과가 null이 될 수 있으며, 클라이언트가 이 상황을 처리해야 할 때 사용하는 것이 좋다.\
-\
-출처: [https://mangkyu.tistory.com/70](https://mangkyu.tistory.com/70) \[MangKyu's Diary]
+즉, Optional은 메소드의 결과가 null이 반드시 아닌 경우에는 사용하지 않는 것이 유리하다.
 {% endhint %}
 
 ## Optional 단점

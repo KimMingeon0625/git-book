@@ -41,4 +41,5 @@
 
 ## JAVA
 
+* [Optional](java/optional.md)
 * [Annotation](java/annotation.md)

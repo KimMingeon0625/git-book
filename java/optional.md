@@ -1,3 +1,7 @@
+---
+description: JAVA 8 Optional
+---
+
 # Optional
 
 ## Optional이란?
@@ -5,8 +9,6 @@
 Optional\<T>는 null이 올 수 있는 값을 감싸는 Wrapper 클래스.
 
 **Java 8** 에서 도입 되었으며, 각종 메소드를 통해 Null에 대응한다.
-
-
 
 ## Optional 단점
 
@@ -32,8 +34,6 @@ value가 null인 경우 비어있는 Optional을 반환
 ### Optional.empty (java8)
 
 비어있는 옵셔널 객체 생성
-
-
 
 ## Optional 중간
 
@@ -106,6 +106,4 @@ stream 객체로 전환이 가능.
 두개의 파라미터를 받아 유효한 객체를 받는 경우, 첫번째 매개변수 실행.
 
 객체가 유효하지 않은 경우, 두번째 매개변수 실행.
-
-
 

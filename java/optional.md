@@ -23,13 +23,9 @@ Optional\<T>는 null이 올 수 있는 값을 감싸는 Wrapper 클래스.
 
 value가 null인 경우 NPE 예외를 던진다
 
-
-
 ### Optional.ofNullable (java8)
 
 value가 null인 경우 비어있는 Optional을 반환
-
-
 
 ### Optional.empty (java8)
 
@@ -53,8 +49,6 @@ mapper 함수를 통해 변환. map() 메서드와 다른점은 **반환 값이 
 
 기본값을 제공할 수 있 함수를 정의 연산 중 비어있는 옵셔널이 된다면, 다음 or() 메서드 진행
 
-
-
 ### stream (java9)
 
 stream 객체로 전환이 가능.
@@ -67,13 +61,9 @@ stream 객체로 전환이 가능.
 
 만약 비어있는 옵션널 객체를 받게 되는 경우 실행되지 않는다.
 
-
-
 ### isPresent (java8)
 
 최종적으로 연산을 끝낸 뒤 객체 존재 여부 판별 (true/false)
-
-
 
 ### get (java8)
 
@@ -81,25 +71,17 @@ stream 객체로 전환이 가능.
 
 비어있는 경우 예외 발생.
 
-
-
 ### orElse (java8)
 
 연산이 끝난 뒤에도 옵셔널 객체가 비어있다면, 기본값으로 제공할 객체를 지정
-
-
 
 ### orElseGet (java8)
 
 연산이 끝난 뒤에도 옵셔널 객체가 비어있다면, 기본값으로 제공할 함수(비지니스 로직)를 지정
 
-
-
 ### orElseThrow (java8)
 
 연산이 끝난 뒤에도 옵셔널 객체가 비어있다면, 예외 발생.
-
-
 
 ### ifpresentOrElse (java9)
 

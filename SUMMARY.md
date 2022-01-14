@@ -38,8 +38,6 @@
 * [IT Knowledge](it-knowledge.md)
   * [HTTP 웹 기본 지식](it-knowledge/http.md)
 * [JavaScript 기초 문법](javascript.md)
-
-## JAVA
-
-* [Optional](java/optional.md)
-* [Annotation](java/annotation.md)
+* [JAVA](java/README.md)
+  * [Optional](java/optional.md)
+  * [Annotation](java/annotation.md)

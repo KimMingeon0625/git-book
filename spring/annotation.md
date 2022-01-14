@@ -1,7 +1,3 @@
----
-description: annotation 정리
----
-
 # Annotation
 
 @Configuration&#x20;

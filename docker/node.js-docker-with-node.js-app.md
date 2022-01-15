@@ -73,7 +73,7 @@ CMD ["node", "server.js"]
 
 위코드로  Docker build 에러 발생.&#x20;
 
-![](<../.gitbook/assets/image (18) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1).png>)
 
 COPY package.json ./ 을 추가하여 package파일을 복사한다.
 
@@ -196,7 +196,7 @@ COPY ./ ./
 CMD ["node", "server.js"]
 ```
 
-![](<../.gitbook/assets/image (25) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1).png>)
 
 ## Docker Volume
 

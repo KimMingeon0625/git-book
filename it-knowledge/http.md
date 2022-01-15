@@ -8,7 +8,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 ### 인터넷 통신
 
-![](<../.gitbook/assets/image (18) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1).png>)
 
 클라이언트에서 다른 클라이언트(컴퓨터)로 데이터를 보낼경우 위치에따라 위성, 해저광케이블, 기타 통신서버와 같은 노드들을 거쳐서 상대 클라이언트에 도달한다.
 
@@ -142,7 +142,7 @@ ACK : 요청 수락
 * 전화번호부와 같은 역할
 * 도메인 명을 IP 주소로 변환
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 ## URI와 웹 브라우저 요청 흐름
 
@@ -254,7 +254,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
    연결이 성공되면 TCP/IP 계층으로 데이터를 전달
 3. TCP/IP 패킷을 생성, HTTP 메세지도 포함
 
-![HTTP 메시지](<../.gitbook/assets/image (10).png>)
+![HTTP 메시지](<../.gitbook/assets/image (10) (1).png>)
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
@@ -262,7 +262,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -385,7 +385,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 스케일 아웃 - 수평 확장 유리
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 #### Statless
 
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15).png>)![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (15).png>)![](<../.gitbook/assets/image (25) (1).png>)
 
 
 
@@ -457,11 +457,92 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 요청 메시지
 
-![HTTP 요청 메시지 ](<../.gitbook/assets/image (18).png>)
+![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1).png>)
 
-####
+![](<../.gitbook/assets/image (18).png>)
+
+* start-line = request-line
+* request-line = method SP(공백) request-target SP HTTP-version CRLF(엔터)
+
+
+
+* HTTP 메서드 (Get)
+* 요청 대상(/search?q=hello\&hl=ko)
+* HTTP Version
+
+#### 종류 : GET, POST, PUT, DELETE, ...
+
+* 서버가 수행해야 할 동작 지정
+  * GET : 리소스 조회
+  * POST : 요청 내역 처리
+
+#### 요청 대상
+
+* absoulte-path\[?query] (절대경로\[?쿼리])
+* 절대 경로 = "/" 로 시작하는 경로
+* 참고 : \*, http://....?x=y
 
 #### HTTP 응답 메시지
 
 ![HTTP 응답 메시지](<../.gitbook/assets/image (12).png>)
+
+
+
+![](<../.gitbook/assets/image (32).png>)
+
+* start-line = status-line
+* status-line = HTTP-version SP status-code SP reason-phrase CRLF
+
+
+
+* HTTP 버전
+* HTTP 상태 코드 : 요청 성공, 실패를 나타냄
+  * 200 : 성공
+  * 400 : 클라이언트 요청 오류
+  * 500 : 서버 내부 오류
+* 이유 문구 : 사람이 이해할 수 있는 짧은 상태 코드 설명 글 (ex. OK)
+
+#### HTTP 헤더
+
+![](<../.gitbook/assets/image (45).png>)
+
+* header-field = field-name ":" OWS field-value OWS (OWS:띄어쓰기 채용)
+* field-name 은 대소문자 구문 없음
+
+#### 용도
+
+* HTTP 전송에 필요한 모든 부가정보\
+  ex) 메시지 바디의 내용, 메시지 바디의 크기, 압축, 인증, 요청 클라이언트(브라우저) 정보, 서버 애플리케이션 정보, 캐시 관리 정보, ....
+* 표준 헤더가 너무 많다.
+* 필요시 임의의 헤더 추가 가능
+
+
+
+#### HTTP 메시지 바디
+
+![](<../.gitbook/assets/image (13).png>)&#x20;
+
+* 실제 전송할 데이터
+* HTML 문서, 이미지, 영상, JSON 등등 byte로 표현할 수 있는 모든 데이터 전송 가능
+
+
+
+#### 단순함 확장 가능&#x20;
+
+* HTTP는 단순하다.
+* HTTP 메시지도 매우 단순
+* 크게 성공하는 표준 기술은 단순하지만 확장 가능한 기술
+
+
+
+{% hint style="info" %}
+### HTTP 정리
+
+* HTTP 메시지에 모든 것을 전송
+* HTTP 역사 HTTP/1.1을 기준으로 학습
+* 클라이언트 서버 구조
+* 무상태 프로토콜(스테이스리스)
+* HTTP 메시지
+* 단순함. 확장 가능
+{% endhint %}
 

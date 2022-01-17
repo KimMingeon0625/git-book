@@ -12,7 +12,7 @@ description: 들어가며
 
 ![Before Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
-![After Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (12) (1) (1) (1).png>)
+![After Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 거대해진 아키텍처의 데이터 파이프라인이 복잡해지기 시작.
 

@@ -121,7 +121,7 @@ local file을 복사한 것과 같이 network도 연결을 해주어야 한다.&
 Port mapping이 필요.
 {% endhint %}
 
-![](<../.gitbook/assets/image (19) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1).png>)
 
 docker run -p 5000:8080 mingeon/nodejs 를 통해 실행.
 

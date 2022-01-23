@@ -823,3 +823,23 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 이런 제약을 해결하기 위해 **동사**로 된 리소스 경로 사용
   * POST의 /new, /edit, /delete가 컨트롤 URI
   * HTTP 메서드로 해결하기 애매한 경우 사용(HTTP API 포함)
+
+
+
+### 참고하면 좋은 URI 설계 개념
+
+* 문서(document)
+  * 단일 개념(파일 하나, 객체 인스턴스, 데이터베이스 row)
+  * ex) /members/100, /files/star.jpg
+* 컬렉션(collection)
+  * 서버가 관리하는 리소스 디렉토리
+  * 서버가 리소스의 URI를 생성하고 관리
+  * ex) /members
+* 스토어(store)
+  * 클라이언트가 관리하는 자원 저장소
+  * 클라이언트가 리소스의 URI를 알고 관리
+  * ex) /files
+* 컨트롤러(controller), 컨트롤 URI
+  * 문서, 컬렉션, 스토어로 해결하기 어려운 추가 프로세스 실행
+  * 동사를 직접 사용
+  * ex) /members/{id}/delete

@@ -22,7 +22,7 @@ docker-compose up
 
 ### Docker Compose 파일 작성
 
-![](<../.gitbook/assets/image (9) (1) (1).png>)
+![](<../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 ```
 // docker-compose.yml
@@ -48,7 +48,7 @@ Docker compose down
 
 ![](<../.gitbook/assets/image (2) (1).png>)
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (9) (1) (1).png>)
 
 {% hint style="info" %}
 상단의 초록선 : Builder stage

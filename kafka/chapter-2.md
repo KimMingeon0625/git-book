@@ -10,7 +10,7 @@ description: 카프카 빠르게 시작해보기
 
 #### EC2 Dashboard
 
-![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
+![(우측상단)인스턴스 시작](<../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
 #### AMI 선택 화면
 
@@ -18,7 +18,7 @@ description: 카프카 빠르게 시작해보기
 
 #### 인스턴스 유형 선택
 
-![찬가지로 프리티어가 가능한 인스턴스를 선택](<../.gitbook/assets/image (11) (1) (1) (1).png>)
+![찬가지로 프리티어가 가능한 인스턴스를 선택](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
 
 #### 인스턴스 시작 및 검토
 

@@ -41,7 +41,7 @@ graphQL을 적용한 기업
 
     (RESTAPI와 같은 개념적인 규약)
 
-![(좌) request 쿼리문 (우) response / In ApolloServer](<../.gitbook/assets/image (36).png>)
+![(좌) request 쿼리문 (우) response / In ApolloServer](<../.gitbook/assets/image (36) (1).png>)
 
 
 

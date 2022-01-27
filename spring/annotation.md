@@ -33,6 +33,24 @@
 
 * 개발자가 컨트롤이 불가능한 외부 라이브러리들을 Bean으로 등록하고 싶은 경우에 사용
 
+
+
+#### @Pathvariable
+
+* URL 경로에 변수를 넣어주는 어노테이션
+
+```
+@Controller 
+public class HomeController {
+  @RequestMapping("/student/{studentId}") 
+  public String student(@PathVariable String studentId, Model model) {
+      model.addAttribute("studentId", studentId); 
+      return "student"; 
+  } 
+}
+
+```
+
 ## Cache
 
 @Cacheable&#x20;

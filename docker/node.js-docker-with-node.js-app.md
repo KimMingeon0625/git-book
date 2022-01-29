@@ -125,7 +125,7 @@ Port mapping이 필요.
 
 docker run -p 5000:8080 mingeon/nodejs 를 통해 실행.
 
-![설정한 local port 5000을 통해 접속.](<../.gitbook/assets/image (26) (1).png>)
+![설정한 local port 5000을 통해 접속.](<../.gitbook/assets/image (26) (1) (1).png>)
 
 ## Working Directory
 

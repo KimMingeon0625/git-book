@@ -15,7 +15,7 @@ description: 개발자들 대화 혹은, 문서 등에서 나온 생소한 용�
 \
 
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 \- 인증 방식을 변경하기 어려울 경우, 많이 사용
 

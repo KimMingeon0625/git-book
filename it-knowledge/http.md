@@ -8,7 +8,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 ### 인터넷 통신
 
-![](<../.gitbook/assets/image (18) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1) (1).png>)
 
 클라이언트에서 다른 클라이언트(컴퓨터)로 데이터를 보낼경우 위치에따라 위성, 해저광케이블, 기타 통신서버와 같은 노드들을 거쳐서 상대 클라이언트에 도달한다.
 
@@ -27,7 +27,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 * 패킷은 전송하고자 하는 데이터의 한 블록(payload)과 주소지 정보(발신지 주소, 목적지 주소), 관리정보(Header, IPv6와 같이 망이 패킷을 목적지까지 전달하는데 필요한)로 구성된다.
 
-![](<../.gitbook/assets/image (15) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
 
 #### **IP 프로토콜의 한계**
 
@@ -92,7 +92,7 @@ ACK : 요청 수락
 1. 데이터 전송
 2. 데이터 수신 확인 메시지
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 **순서 보장**
 
@@ -246,7 +246,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 전송
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 1. 웹 브라우저가 HTTP 메세지를 생성
 2. SOCKET 라이브러리를 통해 TCP/IP계층에 전달\
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1).png>)![](<../.gitbook/assets/image (25) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1).png>)
 
 
 
@@ -457,9 +457,9 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 요청 메시지
 
-![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1) (1).png>)
+![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (18) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1).png>)
 
 * start-line = request-line
 * request-line = method SP(공백) request-target SP HTTP-version CRLF(엔터)
@@ -504,7 +504,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 헤더
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../.gitbook/assets/image (45) (1).png>)
 
 * header-field = field-name ":" OWS field-value OWS (OWS:띄어쓰기 채용)
 * field-name 은 대소문자 구문 없음
@@ -593,7 +593,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * CONNECT : 대상 자원으로 식별되는 서버에 대한 터널을 설정
 * TRACE : 대상 리소스에 대한 경로를 따라 메시지 루프백 테스트를 수행
 
-![GET](<../.gitbook/assets/image (18).png>)
+![GET](<../.gitbook/assets/image (18) (1).png>)
 
 #### GET
 
@@ -601,7 +601,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 서버에 전달하고 싶은 데이터는 query(쿼리 파라미터, 쿼리 스트링)를 통해서 전달
 * 메시지 바디를 사용해서 데이터를 전달할 수 있지만, 지원하지 않는 곳이 많아서 권장하지 않음
 
-![POST](<../.gitbook/assets/image (44).png>)
+![POST](<../.gitbook/assets/image (44) (1).png>)
 
 #### POST
 
@@ -655,7 +655,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 클라이언트가 리소스 위치를 알고 URI 지정
   * POST와 차이점
 
-![PATCH](<../.gitbook/assets/image (19).png>)
+![PATCH](<../.gitbook/assets/image (19) (1).png>)
 
 #### PATCH
 
@@ -1117,7 +1117,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 ### 표현
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 * Content-Type: 표현 데이터의 형식
 * Content-Encoding: 표현 데이터의 압축 방식
@@ -1164,14 +1164,129 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 * 바이트 단위
 * Transfer-Encoding(전송 코딩)을 사용하면 Content-Length를 사용하면 안됨
 
-### 콘텐츠 협상
+### 콘텐츠 협상(콘텐츠 네고시에이션)
+
+클라이언트가 선호하는 표현 요청
+
+* Accept: 클라이언트가 선호하는 미디어 타입 전달
+* Accept-Charset: 클라이언트가 선호하는 문자 인코딩
+* Accept-Encoding: 클라이언트가 선호하는 압축 인코딩
+* Accept-Language: 클라이언트가 선호하는 자연 언어
+* 협상 헤더는 요청시에만 사용
+
+#### Accept-Language 적용 전
+
+![](<../.gitbook/assets/image (36).png>)
+
+#### Accept-Language 적용 후
+
+![](<../.gitbook/assets/image (44).png>)
+
+#### Accept-Language 복잡한 예시
+
+![](<../.gitbook/assets/image (25).png>)
+
+#### 협상과 우선순위 1
+
+Quality Values(q)
+
+![](<../.gitbook/assets/image (18).png>)
+
+* Quality Values(q) 값 사용
+* 0\~1, 클수록 높은 우선 순위
+* 생략하면 1
+* Accept-Language: ko-KR,ko;q=0/9,en-US;q=0.8,en;q=0.7
+  1. ko-KR;q=1 (q생략)
+  2. ko;q=0.9
+  3. en-US;q=0.8
+  4. en;q=0.7
+
+#### 협상과 우선순위 2
+
+Quality Values(q)
+
+* 구체적인 것이 우선한다.
+* Accept: text/\*, text/plain, text/plain;format=flowed, **/**
+  1. text/plain;format=flowed
+  2. text/plain
+  3. text/\*
+  4. _/_
+
+#### 협상과 우선순위 3
+
+Quality Values(q)
+
+![](<../.gitbook/assets/image (15).png>)
+
+* 구체적인 것을 기준으로 미디어 타입을 맞춘다.
+* Accept: text/\*;q=0.3, text/html;q=0.7, text/html;level=1, text.html;level=2;q=0.4, _/_;q=0.5
 
 ### 전송 방식
 
+* 단순 전송
+* 압축 전송
+  * Content-Encoding 추가
+* 분할 전송
+  * Transfer-Encoding 추가
+  * Content-Length 사용 X
+* 범위 전송
+  * Content-Range 추가
+
 ### 일반 정보
+
+* From(유저 에이전트의 이메일 정보)
+  * 일반적으로 잘 사용되지 않음
+  * 검색 엔진 같은 곳에서, 주로 사용
+  * 요청에서 사용
+* Referer(이전 웹 페이지 주소)
+  * 현재 요청된 페이지의 이전 웹 페이지 주소
+  * A → B 로 이동하는 경우 B를 요청할 때 Referer: A를 포함해서 요청
+  * Referer를 사용해서 유입 경로 분석 가능
+  * 요청에서 사용
+  * 참고 : referer는 단어 referrer의 오타
+* User-Agent(유저 에이전트 애플리케이션 정보)
+  * user-agent: Mozila/5.0 (Macintosh; Intel Mac OS X 10\_15\_7) AppleWebKit/537.36 (LHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36)
+  * 클라이언트의 애플리케이션 정보(웹 브라우저 정보, 등등)
+  * 통계 정보
+  * 어떤 종류의 브라우저에서 장애가 발생하는지 파악 가능
+  * 요청에서 사용
+* Server(요청을 처리하는 ORIGIN 서버의 소프트웨어 정보)
+  * Server : Apache/2.2.22 (Debian)
+  * server : nginx
+  * 응답에서 사용
+* Date(메시지가 발생한 날짜와 시간)
+  * Date: Tue, 15 Nov 1994 08:12:31 GMT
+  * 응답에서 사용
 
 ### 특별한 정보
 
+![](<../.gitbook/assets/image (45).png>)
+
+* Host(요청한 호스트 정보(도메인))
+  * 요청에서 사용
+  * 필수
+  * 하나의 서버가 여러 도메인을 처리해야 할 때
+  * 하나의 IP 주소에 여러 도메인이 적용되어 있을 때
+* Location(페이지 리다이렉션)
+  * 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동
+  * 201 (Created) : Location 값은 요청에 의해 생성된 리소스 URI
+  * 3xx (Redirection) : Location 값은 요청을 자동으로 리다이렉션하기 위한 대상 리소스를 가리킴
+* Allow(허용 가능한 HTTP 메서드)
+  * 405 (Method Not Allowed) 에서 응답에 포함 해야함
+  * Allow : GET, HEAD, PUT
+* Retry-After(유저 에이전트가 다음 요청을 하기까지 기다려야 하는 시간)
+  * 503 (Service Unavailable) : 서비스가 언제까지 불능인지 알려줄 수 있음
+  * Retry-After: Fri, 31 Dec 1999 23:59:59 GMT (날짜 표기)
+  * Retry-After: 120(초단위 표기)
+
 ### 인증
 
+* Authorization(클라이언트 인증 정보를 서버에 전달)
+* Authorization: Basic xxxxxxxxxxxxxxxxxxxxxxxx
+* WWW-Authenticate(리소스 접근시 필요한 인증 방법 정의)
+  * 리소스 접근시 필요한 인증 방법 정의
+  * 401 Unauthorized 응답과 함께 사용
+  * WWW-Authenticate : Newauth realm=”apps”,type=1,title=”Login to\”apps\””,Basic realm=”simple”
+
 ### 쿠키
+

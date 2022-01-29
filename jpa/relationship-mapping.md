@@ -53,7 +53,7 @@ description: relationship mapping
 
 ## 일대다  단방향 \[1:N]&#x20;
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 * 일대다 단방향은 일대다(1:N)에서 1이 연관관계의 주인
 * 테이블 일대다 관계는 항상 다(N) 쪽에 외래 키가 있음

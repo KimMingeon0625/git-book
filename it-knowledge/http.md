@@ -27,7 +27,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 * 패킷은 전송하고자 하는 데이터의 한 블록(payload)과 주소지 정보(발신지 주소, 목적지 주소), 관리정보(Header, IPv6와 같이 망이 패킷을 목적지까지 전달하는데 필요한)로 구성된다.
 
-![](<../.gitbook/assets/image (15) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1).png>)
 
 #### **IP 프로토콜의 한계**
 
@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31).png>)
+![](<../.gitbook/assets/image (31) (1).png>)
 
 **데이터 전달 보증**
 
@@ -142,7 +142,7 @@ ACK : 요청 수락
 * 전화번호부와 같은 역할
 * 도메인 명을 IP 주소로 변환
 
-![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1) (1).png>)
 
 ## 2. URI와 웹 브라우저 요청 흐름
 
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15).png>)![](<../.gitbook/assets/image (25) (1).png>)
+![](<../.gitbook/assets/image (15) (1).png>)![](<../.gitbook/assets/image (25) (1).png>)
 
 
 
@@ -1071,3 +1071,107 @@ Server Error는 반드시 서버 자체에 문제가있는 경우에 활용.
 ex) 출금하려는 고객의 잔고가 부족, 19금에 청소년 접근
 {% endhint %}
 
+## 7. HTTP 헤더1 - 일반 헤더
+
+### HTTP 헤더 개요
+
+#### 용도
+
+* HTTP
+* ex) 메시지 바디의 내용, 메시지 바디의 크기, 압축, 인증, 요청 클라이언트, 서버 정보, 캐시 관리 정보,...
+* 표준 헤더가 너무 많음
+* 필요시 임의의 헤더 추가 가능
+
+
+
+분류 - RFC2616(과거)
+
+![header](<../.gitbook/assets/image (41).png>)
+
+* General header : 메시지 전체에 적용되는 정보, ex) Connection: close
+* Request header : 요청 정보, ex) User-Agent:Mozilla/5.0 (Macintosh;..)
+* Response header : 응답 정보, ex) Server: Apache
+* Entity header : 엔티티 바디 정보, ex) Content-Type: text/html, Content-Length: 3423
+
+![message body](<../.gitbook/assets/image (40).png>)
+
+* 메시지 본문은 엔티티 본문을 전달하는데 사용
+* 엔티티 본문은 요청이나 응답에서 전달할 실제 데이터
+* 엔티티 헤더는 엔티티 본문의 데이터를 해석할 수 있는 정보 제공
+  * 데이터 유형(html, json), 데이터 길이, 압축 정보
+
+RFC2616 -> RFC7230 \~ 7235 표준 변경
+
+* 엔티티(Entity) → 표현(Representation)
+* Representation = representation Metadata + Representation Data
+* 표현 = 표현 메타데이터 + 표현 데이터
+
+![message body - RFC7230(최신)](<../.gitbook/assets/image (14).png>)
+
+* 메시지 본문(message body)을 통해 표현 데이터 전달
+* 메시지 본문 = 페이로드(payload)
+* 표현은 요청이나 응답에서 전달할 실제 데이터
+* 표현 헤더는 표현 데이터를 해석할 수 있는 정보를 제공
+  * 데이터 유형(html,json), 데이터 길이, 압축 정보 등등
+* 참고 : 표현 헤더는 표현 메타데이터와, 페이로드 메시지를 구분해야 하지만, 이를 생략
+
+### 표현
+
+![](<../.gitbook/assets/image (15).png>)
+
+* Content-Type: 표현 데이터의 형식
+* Content-Encoding: 표현 데이터의 압축 방식
+* Content-Language: 표현 데이터의 자연 언어
+* Content-Length: 표현 데이터의 길이
+* 표현 헤더는 전송, 응답 둘다 사용
+
+#### Content-Type
+
+표현 데이터의 형식 설명
+
+* 미디어 타입, 문자 인코딩
+* ex)
+  * text/html; charset=utf-8
+  * application/json
+  * image/png
+
+#### Content-Encoding
+
+표현 데이터 인코딩
+
+* 표현 데이터를 압축하기 위해 사용
+* 데이터를 전달하는 곳에서 압축 후 인코딩 헤더 추가
+* 데이터를 읽는 쪽에서 인코딩 헤더의 정보로 압축 해제
+* ex)
+  * gzip
+  * deflate
+  * identity
+
+#### Content-Language
+
+표현 데이터의 자연 언어
+
+* 표현 데이터의 자연 언어를 표현
+* ex)
+  * ko
+  * en
+  * en-US
+
+#### Content-Length
+
+표현 데이터의 길이
+
+* 바이트 단위
+* Transfer-Encoding(전송 코딩)을 사용하면 Content-Length를 사용하면 안됨
+
+### 콘텐츠 협상
+
+### 전송 방식
+
+### 일반 정보
+
+### 특별한 정보
+
+### 인증
+
+### 쿠키

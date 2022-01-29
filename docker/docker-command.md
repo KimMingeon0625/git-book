@@ -73,7 +73,7 @@ ex) docker ps --format 'table{{.Names}}\ttable{{.Image}}'
 docker ps -a
 {% endhint %}
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (40) (1).png>)
 
 ## 도커 컨테이너의 생명주기
 

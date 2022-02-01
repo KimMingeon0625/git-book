@@ -22,7 +22,7 @@ ex) docker run hello-world
 
 ex) docker run alpine ls
 
-![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 ex) docker run hello-world ls
 
@@ -57,7 +57,7 @@ ex) docker ps
 
 #### 원하는 항목만 보기
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 docker ps --format 'table{{.\~\~\~}} \t table{{\~\~\~}}' (\t은 간격을 의미) &#x20;
 
@@ -162,7 +162,7 @@ docker exec : 이미 실행중인 컨테이너에 명령어 전달.
 interactive(상호적인) terminal 의 약자.
 {% endhint %}
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 redis 명령어
 
@@ -184,7 +184,7 @@ docker exec -it \<container id> sh
 위를 통해 원하는 쉘 환경으로 접속 가능. ( sh 대신 bash, zsh, powershall, .... 사용 가능)
 {% endhint %}
 
-![](<../.gitbook/assets/image (30) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
 
 {% hint style="info" %}
 터미널 환경 종료

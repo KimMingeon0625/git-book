@@ -100,8 +100,8 @@ Build 명령어
   &#x20;해당 컨테이너를 토대로 새로운 이미지가 만들어진다.\
   이후 임시 container는 삭제된다.
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
 
 ## Image Naming
 
-![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)

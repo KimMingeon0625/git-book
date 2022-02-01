@@ -14,7 +14,7 @@ description: 카프카 빠르게 시작해보기
 
 #### AMI 선택 화면
 
-![프리 티어 사용가능한 Amazon Linex 2 AMI 선택](<../.gitbook/assets/image (2).png>)
+![프리 티어 사용가능한 Amazon Linex 2 AMI 선택](<../.gitbook/assets/image (2) (1).png>)
 
 #### 인스턴스 유형 선택
 
@@ -30,7 +30,7 @@ description: 카프카 빠르게 시작해보기
 
 #### 보안 그룹 규칙
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 * 로컬 터미널
 

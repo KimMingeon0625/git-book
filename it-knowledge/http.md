@@ -27,7 +27,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 * 패킷은 전송하고자 하는 데이터의 한 블록(payload)과 주소지 정보(발신지 주소, 목적지 주소), 관리정보(Header, IPv6와 같이 망이 패킷을 목적지까지 전달하는데 필요한)로 구성된다.
 
-![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
 #### **IP 프로토콜의 한계**
 
@@ -61,7 +61,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (12) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 **TCP 특징**
 
@@ -142,7 +142,7 @@ ACK : 요청 수락
 * 전화번호부와 같은 역할
 * 도메인 명을 IP 주소로 변환
 
-![](<../.gitbook/assets/image (14) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png>)
 
 ## 2. URI와 웹 브라우저 요청 흐름
 
@@ -254,11 +254,11 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
    연결이 성공되면 TCP/IP 계층으로 데이터를 전달
 3. TCP/IP 패킷을 생성, HTTP 메세지도 포함
 
-![HTTP 메시지](<../.gitbook/assets/image (10) (1).png>)
+![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1).png>)
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
-![](<../.gitbook/assets/image (11) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
@@ -406,13 +406,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1).png>)
 
 
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1).png>)![](<../.gitbook/assets/image (27) (1).png>)
+![](<../.gitbook/assets/image (26) (1).png>)![](<../.gitbook/assets/image (27) (1) (1).png>)
 
 #### 비 연결성
 
@@ -484,11 +484,11 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 응답 메시지
 
-![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1).png>)
+![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1).png>)
 
 
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 * start-line = status-line
 * status-line = HTTP-version SP status-code SP reason-phrase CRLF
@@ -661,7 +661,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 * 리소스 부분 변경
 
-![DELETE](<../.gitbook/assets/image (12).png>)
+![DELETE](<../.gitbook/assets/image (12) (1).png>)
 
 #### DELETE
 
@@ -944,7 +944,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 301과 기능은 같음
   * 리다이렉트시 요청 메서드와 본문 유지(처음 POST를 보내면 리다이렉트도 POST)
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 #### 일시적인 리다이렉션 (302, 307,303)
 
@@ -1106,7 +1106,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 * Representation = representation Metadata + Representation Data
 * 표현 = 표현 메타데이터 + 표현 데이터
 
-![message body - RFC7230(최신)](<../.gitbook/assets/image (14).png>)
+![message body - RFC7230(최신)](<../.gitbook/assets/image (14) (1).png>)
 
 * 메시지 본문(message body)을 통해 표현 데이터 전달
 * 메시지 본문 = 페이로드(payload)
@@ -1117,7 +1117,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 ### 표현
 
-![](<../.gitbook/assets/image (15) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1).png>)
 
 * Content-Type: 표현 데이터의 형식
 * Content-Encoding: 표현 데이터의 압축 방식
@@ -1216,7 +1216,7 @@ Quality Values(q)
 
 Quality Values(q)
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 * 구체적인 것을 기준으로 미디어 타입을 맞춘다.
 * Accept: text/\*;q=0.3, text/html;q=0.7, text/html;level=1, text.html;level=2;q=0.4, _/_;q=0.5
@@ -1318,7 +1318,7 @@ Stateless
 
 ![](<../.gitbook/assets/image (24).png>)
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (27) (1).png>)
 
 ![](<../.gitbook/assets/image (26).png>)
 
@@ -1379,3 +1379,73 @@ Expires, max-age
 * SameSite
   * XSRF 공격 방지
   * 요청 도메인과 쿠키에 설정된 도메인이 같은 경우만 쿠키 전송
+
+
+
+## 8. HTTP 헤더2 - 캐시와 조건부 요청
+
+### 캐시 기본 동작
+
+#### 캐시가 없을 때
+
+![](<../.gitbook/assets/image (29).png>)
+
+* 데이터가 변경되지 않아도 계속 네트워크를 통해서 데이터를 다운로드 받아야 한다.
+* 인터넷 네트워크는 매우 느리고 비싸다.
+* 브라우저 로딩 속도가 느리다.
+* 느린 사용자 경험
+
+#### 캐시 적용
+
+#### 첫번째 요청&#x20;
+
+![](<../.gitbook/assets/image (14).png>)
+
+#### 두번째 요청&#x20;
+
+![](<../.gitbook/assets/image (32).png>)![](<../.gitbook/assets/image (11).png>)
+
+* 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
+* 비싼 네트워크 사용량을 줄일 수 있다.
+* 브라우저 로딩 속도가 매우 빠르다.
+* 빠른 사용자 경험
+
+#### 캐시 시간 초과
+
+* 캐시 유효 시간이 초과하면, 서버를 통해 데이터를 다시 조회하고, 캐시를 갱신한다.
+* 이때 다시 네트워크 다운로드가 발생한다.
+
+
+
+### 검증 헤더와 조건부 요청1
+
+#### 캐시 시간 초과
+
+* 캐시 유효 시간이 초과해서 서버에 다시 요청하면 다음 두 가지 상황이 나타난다.
+  * 서버에서 기존 데이터를 변경함
+  * 서버에서 기존 데이터를 변경하지 않음
+* 캐시 만료후에도 서버에서 데이터를 변경하지 않음
+* 데이터를 전송하는 대신 저장해 두었던 캐시를 재사용 할 수 있다.
+* 단 클라이언트의 데이터와 서버의 데이터가 같다는 사실을 확인할 수 있는 방법 필요
+
+#### 검증 헤더 추가
+
+**첫 번째 요청**
+
+![](<../.gitbook/assets/image (28).png>)
+
+![](<../.gitbook/assets/image (27).png>)
+
+**두 번째 요청 - 캐시 시간 초과**
+
+![](<../.gitbook/assets/image (10).png>)
+
+![](<../.gitbook/assets/image (15).png>)
+
+
+
+* 캐시 유효 시간이 초과해도, 서버의 데이터가 갱신되지 않으면 304 Not Modified + 헤더 메타 정보만 응답(바디X)
+* 클라이언트는 서버가 보낸 응답 헤더 정보로 캐시의 메타 정보를 갱신
+* 클라이언트는 캐시에 저장되어 있는 데이터 재활용
+* 결과적으로 네트워크 다운로드가 발생하지만 용량이 적은 헤더 정보만 다운로드
+* 매우 실용적인 해결책

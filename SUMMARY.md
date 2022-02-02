@@ -40,6 +40,7 @@
   * [HTTP 웹 기본 지식](it-knowledge/http.md)
   * [IT 관련 용어](it-knowledge/it.md)
   * [Security](it-knowledge/security.md)
+  * [A/B Test](it-knowledge/a-b-test.md)
 * [JAVA](java/README.md)
   * [Optional](java/optional.md)
 * [Spring](spring/README.md)

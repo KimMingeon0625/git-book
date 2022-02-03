@@ -46,5 +46,6 @@
 * [Spring](spring/README.md)
   * [Annotation](spring/annotation.md)
 * [JavaScript 기초 문법](javascript.md)
-* [IT Technology concept](it-technology-concept/README.md)
-  * [소나큐브(SonarQube)](it-technology-concept/sonarqube.md)
+* [IT Tech](it-tech/README.md)
+  * [소나큐브(SonarQube)](it-tech/sonarqube.md)
+  * [스웨거(Swagger) 3.0.0 with yaml](it-tech/swagger-3.0.0-with-yaml.md)

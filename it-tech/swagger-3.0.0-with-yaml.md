@@ -192,15 +192,11 @@ paths:
           description: Unexpected error
 ```
 
-&#x20;
-
 더 자세한 사항
 
 [https://swagger.io/docs/specification/describing-responses/](https://swagger.io/docs/specification/describing-responses/)
 
 ### 7. Input and Output Models <a href="#7.-20input-20and-20output-20models" id="7.-20input-20and-20output-20models"></a>
-
-&#x20;
 
 ```
 {
@@ -270,46 +266,22 @@ security:
 * oAuth2.0 [https://swagger.io/docs/specification/authentication/oauth2/](https://swagger.io/docs/specification/authentication/oauth2/)
 * API Keys [https://swagger.io/docs/specification/authentication/api-keys/](https://swagger.io/docs/specification/authentication/api-keys/)
 
-&#x20;
-
-&#x20;
-
 더 자세한 사항
 
 [https://swagger.io/docs/specification/authentication/api-keys/](https://swagger.io/docs/specification/authentication/api-keys/)
 
-&#x20;
 
-&#x20;
 
 공식 홈페이지 Example YAML 예제들 출처\
 [Basic Structure](https://swagger.io/docs/specification/basic-structure/)
 
-[ ](https://swagger.io/docs/specification/basic-structure/)
-
-&#x20;
-
-&#x20;
-
 Example YAML 예제들 출처\
 [Swagger Editor](https://editor.swagger.io)
-
-[ ](https://editor.swagger.io)
-
-&#x20;
-
-&#x20;
 
 Detail Object\
 [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#infoObject)
 
-[ ](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#infoObject)
 
-&#x20;
-
-### [ ](https://machine-geon.tistory.com/168?category=975992#%C2%A0) <a href="#c2-a0" id="c2-a0"></a>
-
-&#x20;
 
 출처
 

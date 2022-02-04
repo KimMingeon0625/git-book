@@ -41,13 +41,17 @@
   * [IT 관련 용어](it-knowledge/it.md)
   * [Security](it-knowledge/security.md)
   * [A/B Test](it-knowledge/a-b-test.md)
-* [JAVA](java/README.md)
-  * [Optional](java/optional.md)
 * [Spring](spring/README.md)
   * [Annotation](spring/annotation.md)
 * [JavaScript 기초 문법](javascript.md)
 * [IT Tech](it-technology-concept/README.md)
   * [소나큐브(SonarQube)](it-technology-concept/sonarqube.md)
   * [스웨거(Swagger) 3.0.0 with yaml](it-tech/swagger-3.0.0-with-yaml.md)
-* [연동](undefined/README.md)
-  * [JIRA (with Java)](undefined/jira-with-java.md)
+
+## Group 1
+
+* [JAVA](group-1/java/README.md)
+  * [연동](group-1/java/undefined/README.md)
+    * [JIRA (with Java)](group-1/java/undefined/jira-with-java.md)
+  * [API](group-1/java/api/README.md)
+    * [Optional](group-1/java/api/optional.md)

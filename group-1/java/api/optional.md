@@ -1,7 +1,3 @@
----
-description: JAVA 8 Optional
----
-
 # Optional
 
 ## Optional이란?

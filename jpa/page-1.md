@@ -22,6 +22,8 @@
 * @DiscriminatorColumn(name=“DTYPE”)
 * @DiscriminatorValue(“XXX”)
 
+### 조인 전략
+
 ![조인 전](<../.gitbook/assets/image (27).png>)
 
 * 장점
@@ -33,6 +35,8 @@
   * 조회 쿼리가 복잡함
   * 데이터 저장시 INSERT SQL 2번 호출
 
+### 단일 테이블 전략
+
 ![단일 테이블 전략](<../.gitbook/assets/image (37).png>)
 
 * 장점
@@ -41,6 +45,8 @@
 * 단점
   * 자식 엔티티가 매핑한 컬럼은 모두 null 허용
   * 단일 테이블에 모든 것을 저장하므로 테이블이 커질 수 있다. 상 황에 따라서 조회 성능이 오히려 느려질 수 있다.
+
+### 구현 클래스마다 테이블 전략
 
 ![구현 클래스마다 테이블 전략](<../.gitbook/assets/image (20).png>)
 

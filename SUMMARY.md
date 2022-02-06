@@ -13,7 +13,7 @@
   * [단방향 연관관계 (one-way association)](jpa/one-way-association.md)
   * [양방향 연관관계와 연관관계의 주인 (Bidirectional associations and masters of associations)](jpa/bidirectional-associations-and-masters-of-associations.md)
   * [다양한 연관관계 매핑(relationship mapping)](jpa/relationship-mapping.md)
-  * [Page 1](jpa/page-1.md)
+  * [고급 매핑](jpa/undefined.md)
 * [KAFKA](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

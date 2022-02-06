@@ -26,7 +26,7 @@ description: 카프카 빠르게 시작해보기
 
 #### 서버 접속을 위한 키 페어 설정
 
-![키 페어 름 test-kafka-server-key / 키 페어 다운로드](<../.gitbook/assets/image (7) (1) (1).png>)
+![키 페어 름 test-kafka-server-key / 키 페어 다운로드](<../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 #### 보안 그룹 규칙
 

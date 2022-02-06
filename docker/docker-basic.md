@@ -133,4 +133,4 @@ OS/Arch: linux/amd64 를 확인 가능
 Docker는 Linux환경에서 동작하므로, 리눅스 기능이 사용 가능하다.
 {% endhint %}
 
-![](<../.gitbook/assets/image (32) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1).png>)

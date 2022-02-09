@@ -158,7 +158,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ![](<../.gitbook/assets/image (43).png>)
 
-![](<../.gitbook/assets/image (30) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
 
 **URI 뜻**
 
@@ -262,7 +262,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -385,7 +385,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 스케일 아웃 - 수평 확장 유리
 
-![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
 
 #### Statless
 
@@ -520,7 +520,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 바디
 
-![](<../.gitbook/assets/image (13) (1) (1).png>)&#x20;
+![](<../.gitbook/assets/image (13) (1) (1) (1).png>)&#x20;
 
 * 실제 전송할 데이터
 * HTML 문서, 이미지, 영상, JSON 등등 byte로 표현할 수 있는 모든 데이터 전송 가능
@@ -643,7 +643,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### HTTP 메서드 - PUT, PATCH, DELETE
 
-![PUT](<../.gitbook/assets/image (13) (1).png>)
+![PUT](<../.gitbook/assets/image (13) (1) (1).png>)
 
 #### PUT
 
@@ -1295,7 +1295,7 @@ Quality Values(q)
 
 #### 쿠키 미사용
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1).png>)
 
 Stateless
 
@@ -1498,7 +1498,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **ETag 두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (30) (1).png>)
 
 ![](<../.gitbook/assets/image (6).png>)
 
@@ -1601,7 +1601,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **no-cache 기본 동작**
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1).png>)
 

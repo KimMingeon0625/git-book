@@ -62,7 +62,7 @@ member.getName();
 
 ### 프록시 확인
 
-* 프록시 인스턴스의 초기화 여부 확인 PersistenceUnitUtil.isLoaded(Object entity)
+* 프록시 인스턴스의 초기화 여부 확인 PersistenceUnitUtil.isLoaded(Object entity) → emf.getPersistenceUnitUtil().isLoaded(Object entity)
 * 프록시 클래스 확인 방법 entity.getClass().getName() 출력(..javasist.. or HibernateProxy…)
 * 프록시 강제 초기화 org.hibernate.Hibernate.initialize(entity);
 * 참고: JPA 표준은 강제 초기화 없음 강제 호출: member.getName()

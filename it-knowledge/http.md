@@ -52,7 +52,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 * 인터넷 계층 : 방대한 인터넷 계층에서 어디로 보낼지 경로를 선택하는 것이 IP게층이다. 이 자체로는 비연결 지향적이며 신뢰성이 없고 데이터를 전송한 이후 발생하는 문제에 대해서는 신경쓰지 않는다.
 * 네트워크 인터페이스 계층 : 물리적인 영역을 표준화 하는 계층으로 실제로 랜선을 꼽는 랜카드나 랜카드 드라이버등이 이에 속한다.
 
-![](<../.gitbook/assets/image (17) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1).png>)
 
 1. 프로그램이 Hello,world! 메시지(Payload) 생성
 2. SOCKET 라이브러리를 통해 전달
@@ -75,7 +75,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (21) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 {% hint style="info" %}
 SYN : 접속 요청&#x20;
@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1).png>)
 
 **데이터 전달 보증**
 
@@ -126,7 +126,7 @@ ACK : 요청 수락
   * HTTP - 80
   * HTTPS - 443
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1).png>)
 
 
 
@@ -451,7 +451,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 구조
 
-![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1).png>)
+![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1).png>)
 
 
 
@@ -488,7 +488,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 
 
-![](<../.gitbook/assets/image (32) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1).png>)
 
 * start-line = status-line
 * status-line = HTTP-version SP status-code SP reason-phrase CRLF
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1).png>)![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (32) (1) (1).png>)![](<../.gitbook/assets/image (11).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.
@@ -1500,7 +1500,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 ![](<../.gitbook/assets/image (30) (1).png>)
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 #### 정리
 
@@ -1558,7 +1558,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 * 한국에 프록시 캐시 서버를 두고 한국의 클라이언트는 프록시 캐시서버를 통해 캐시를 가져온다.
 * 여러 사람이 찾은 자료는 이미 캐시에 등록이 되어 있으므로 빠르게 가져올 수 있다.

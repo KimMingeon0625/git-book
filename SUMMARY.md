@@ -47,7 +47,8 @@
 * [프로젝트 관리](it-technology-concept/README.md)
   * [소나큐브(SonarQube)](it-technology-concept/sonarqube.md)
   * [스웨거(Swagger) 3.0.0 with yaml](it-tech/swagger-3.0.0-with-yaml.md)
-  * [Junit](undefined/junit.md)
+  * [더 자바, 애플리케이션을 테스트하는 다양한 방법](undefined/undefined/README.md)
+    * [JUnit 5](undefined/undefined/junit-5.md)
 
 ## Group 1
 

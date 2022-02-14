@@ -26,7 +26,7 @@ ex) docker run alpine ls
 
 ex) docker run hello-world ls
 
-![](<../.gitbook/assets/image (44) (1) (1).png>)
+![](<../.gitbook/assets/image (44) (1) (1) (1).png>)
 
 hello-world는 ls가 작동하지 않는것과 같이 image 마다 다른 명령어를 제공한다.
 

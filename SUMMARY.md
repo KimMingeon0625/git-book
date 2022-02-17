@@ -46,18 +46,17 @@
   * [더 자바, 애플리케이션을 테스트하는 다양한 방법](undefined/undefined/README.md)
     * [JUnit 5](undefined/undefined/junit-5.md)
 
-## Group 1
+## Java
 
-* [JAVA](group-1/java/README.md)
-  * [연동](group-1/java/undefined/README.md)
-    * [JIRA (with Java)](group-1/java/undefined/jira-with-java.md)
-  * [API](group-1/java/api/README.md)
-    * [Optional](group-1/java/api/optional.md)
+* [API](java/api/README.md)
+  * [Optional](java/api/optional.md)
+* [연동](java/undefined/README.md)
+  * [JIRA (with Java)](java/undefined/jira-with-java.md)
 
 ## Kafka
 
 * [Kafka 완전 정복 강의 정리](kafka/kafka.md)
-* [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/with/README.md)
-  * [Chapter 1](kafka/with/chapter-1.md)
-  * [Chapter 2](kafka/with/chapter-2.md)
-  * [Chapter3](kafka/with/chapter3.md)
+* [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
+  * [Chapter 1](kafka/chapter-1.md)
+  * [Chapter 2](kafka/chapter-2.md)
+  * [Chapter3](kafka/chapter3.md)

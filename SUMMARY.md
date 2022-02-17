@@ -15,10 +15,6 @@
   * [다양한 연관관계 매핑(relationship mapping)](jpa/relationship-mapping.md)
   * [고급 매핑(advanced mapping)](jpa/advanced-mapping.md)
   * [프록시와 연관관계 정리(Proxy and Associations)](jpa/proxy-and-associations.md)
-* [KAFKA](kafka/README.md)
-  * [Chapter 1](kafka/chapter-1.md)
-  * [Chapter 2](kafka/chapter-2.md)
-  * [Chapter3](kafka/chapter3.md)
 * [GrpahQL](grpahql/README.md)
   * [GraphQL 기초](grpahql/graphql.md)
 * [Docker](docker/README.md)
@@ -57,3 +53,11 @@
     * [JIRA (with Java)](group-1/java/undefined/jira-with-java.md)
   * [API](group-1/java/api/README.md)
     * [Optional](group-1/java/api/optional.md)
+
+## Kafka
+
+* [Kafka 완전 정복 강의 정리](kafka/kafka.md)
+* [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/with/README.md)
+  * [Chapter 1](kafka/with/chapter-1.md)
+  * [Chapter 2](kafka/with/chapter-2.md)
+  * [Chapter3](kafka/with/chapter3.md)

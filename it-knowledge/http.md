@@ -16,7 +16,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 송신/수신 클라이언트에서 정보를 주고받을 때 사용하는 정보 위주의 프로토콜
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 #### 역할
 
@@ -158,7 +158,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ![](<../.gitbook/assets/image (43).png>)
 
-![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1) (1).png>)
 
 **URI 뜻**
 
@@ -435,7 +435,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 지속 연결(Persistent Connections)
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 {% hint style="info" %}
 **스테이스리스를 기억하자**
@@ -1498,7 +1498,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **ETag 두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (30) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (6) (1).png>)
 

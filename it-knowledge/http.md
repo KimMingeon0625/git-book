@@ -488,7 +488,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 
 
-![](<../.gitbook/assets/image (32) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1).png>)
 
 * start-line = status-line
 * status-line = HTTP-version SP status-code SP reason-phrase CRLF
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1) (1).png>)![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1).png>)![](<../.gitbook/assets/image (11).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.

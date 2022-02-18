@@ -55,7 +55,9 @@
 
 ## Kafka
 
-* [Kafka 완전 정복 강의 정리](kafka/kafka.md)
+* [Kafka 완전 정복 강의 정리](kafka/kafka/README.md)
+  * [Ch 01. Apache Kafka 기본 개념 및 이해](kafka/kafka/ch-01.-apache-kafka/README.md)
+    * [01. Apache Kafka](kafka/kafka/ch-01.-apache-kafka/01.-apache-kafka.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

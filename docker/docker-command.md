@@ -18,7 +18,7 @@ ex) docker run hello-world
   command : docker run image-name ls\
   (ls 위치는 시작명령어를 무시하고 해당 커맨드를 실행)
 
-![](<../.gitbook/assets/image (7) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 ex) docker run alpine ls
 

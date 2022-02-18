@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31) (1) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1) (1).png>)
 
 **데이터 전달 보증**
 
@@ -234,13 +234,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### 웹 브라우저 요청 흐름
 
-![](<../.gitbook/assets/image (7) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1).png>)
 
 1. DNS 조회
 2. HTTPS PORT 생략(443)
 3. HTTP 요청 메시지 생성
 
-&#x20;![](<../.gitbook/assets/image (24) (1) (1).png>)
+&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1).png>)
 
 
 
@@ -262,7 +262,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -974,7 +974,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 새로고침해도 결과 화면을 GET으로 조회
 * 중복 주문 대신에 결과 화면만 GET으로 다시 요청
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (22) (1).png>)
 
 * PRG 이후 리다이렉트
   * URL이 이미 POST → GET으로 리다이렉트 됨
@@ -1295,7 +1295,7 @@ Quality Values(q)
 
 #### 쿠키 미사용
 
-![](<../.gitbook/assets/image (16) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 Stateless
 
@@ -1316,7 +1316,7 @@ Stateless
 
 #### 쿠키 로그인
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 
@@ -1432,7 +1432,7 @@ Expires, max-age
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (28) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1).png>)
 
@@ -1601,7 +1601,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **no-cache 기본 동작**
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1).png>)
 

@@ -82,7 +82,7 @@ docker ps -a
 docker run image = docker create image-name\
 &#x20;                                \+ docker start -a container-name/id ( -a옵션은 출력을 위해 설정)
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (42) (1).png>)
 
 ### Docker Stop vs Docker Kill
 

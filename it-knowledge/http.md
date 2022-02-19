@@ -8,7 +8,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 ### 인터넷 통신
 
-![](<../.gitbook/assets/image (18) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png>)
 
 클라이언트에서 다른 클라이언트(컴퓨터)로 데이터를 보낼경우 위치에따라 위성, 해저광케이블, 기타 통신서버와 같은 노드들을 거쳐서 상대 클라이언트에 도달한다.
 
@@ -75,7 +75,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 SYN : 접속 요청&#x20;
@@ -451,15 +451,15 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 구조
 
-![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1).png>)
+![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
 
 
 
 #### HTTP 요청 메시지
 
-![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1) (1) (1).png>)
+![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (18) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1).png>)
 
 * start-line = request-line
 * request-line = method SP(공백) request-target SP HTTP-version CRLF(엔터)
@@ -593,7 +593,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * CONNECT : 대상 자원으로 식별되는 서버에 대한 터널을 설정
 * TRACE : 대상 리소스에 대한 경로를 따라 메시지 루프백 테스트를 수행
 
-![GET](<../.gitbook/assets/image (18) (1).png>)
+![GET](<../.gitbook/assets/image (18) (1) (1).png>)
 
 #### GET
 
@@ -974,7 +974,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 새로고침해도 결과 화면을 GET으로 조회
 * 중복 주문 대신에 결과 화면만 GET으로 다시 요청
 
-![](<../.gitbook/assets/image (22) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1).png>)
 
 * PRG 이후 리다이렉트
   * URL이 이미 POST → GET으로 리다이렉트 됨
@@ -1190,7 +1190,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 Quality Values(q)
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 * Quality Values(q) 값 사용
 * 0\~1, 클수록 높은 우선 순위

@@ -92,7 +92,7 @@ ACK : 요청 수락
 1. 데이터 전송
 2. 데이터 수신 확인 메시지
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 **순서 보장**
 
@@ -246,7 +246,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 전송
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 1. 웹 브라우저가 HTTP 메세지를 생성
 2. SOCKET 라이브러리를 통해 TCP/IP계층에 전달\

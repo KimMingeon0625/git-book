@@ -22,7 +22,7 @@ ex) docker run hello-world
 
 ex) docker run alpine ls
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 ex) docker run hello-world ls
 

@@ -77,7 +77,7 @@ docker ps -a
 
 ## 도커 컨테이너의 생명주기
 
-![](<../.gitbook/assets/image (23) (1).png>)
+![](<../.gitbook/assets/image (23) (1) (1).png>)
 
 docker run image = docker create image-name\
 &#x20;                                \+ docker start -a container-name/id ( -a옵션은 출력을 위해 설정)
@@ -86,7 +86,7 @@ docker run image = docker create image-name\
 
 ### Docker Stop vs Docker Kill
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1).png>)
 
 {% hint style="info" %}
 container 정지

@@ -94,13 +94,13 @@ member.getName();
 
 #### 지연 로딩
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 ![](<../.gitbook/assets/image (6).png>)
 
 Member member = em.find(Member.class, 1L);
 
-![](<../.gitbook/assets/image (31) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1).png>)
 
 Team team = member.getTeam();&#x20;
 

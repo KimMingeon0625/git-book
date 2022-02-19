@@ -75,7 +75,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (21) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 SYN : 접속 요청&#x20;
@@ -451,7 +451,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 구조
 
-![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1).png>)
+![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 
 
@@ -1558,7 +1558,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (33) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1).png>)
 
 * 한국에 프록시 캐시 서버를 두고 한국의 클라이언트는 프록시 캐시서버를 통해 캐시를 가져온다.
 * 여러 사람이 찾은 자료는 이미 캐시에 등록이 되어 있으므로 빠르게 가져올 수 있다.

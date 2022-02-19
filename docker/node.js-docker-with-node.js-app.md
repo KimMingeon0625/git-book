@@ -159,7 +159,7 @@ CMD ["node", "server.js"]
 * docker build -t mingeon/nodejs ./
 * docker run -it mingeon/nodejs sh
 
-![](<../.gitbook/assets/image (17) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png>)
 
 WorkDir 설정을 하는 경우, container 접속시 WorkDir이 첫화면이다.
 
@@ -212,7 +212,7 @@ vscode powerShell 환경 : $(pwd) ->${pwd}
 
 ![](<../.gitbook/assets/image (41) (1).png>)
 
-![](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1).png>)
 
 re-build 없이 매핑된 파일의 변경으로 적용.
 

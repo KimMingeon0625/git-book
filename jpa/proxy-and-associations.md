@@ -94,7 +94,7 @@ member.getName();
 
 #### 지연 로딩
 
-![](<../.gitbook/assets/image (17) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (6).png>)
 

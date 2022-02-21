@@ -64,7 +64,7 @@
     * [05. Consumer](kafka/kafka/ch-01.-apache-kafka/05.-consumer.md)
     * [06. Replication](kafka/kafka/ch-01.-apache-kafka/06.-replication.md)
     * [07. In-Sync Replicas](kafka/kafka/ch-01.-apache-kafka/07.-in-sync-replicas.md)
-  * [Ch 02.](kafka/kafka/ch-02..md)
+  * [Ch 02. Apache Kafka 심화 개념 및 이해](kafka/kafka/ch-02.-apache-kafka.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

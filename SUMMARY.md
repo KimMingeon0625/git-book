@@ -50,6 +50,7 @@
 
 * [API](java/api/README.md)
   * [Optional](java/api/optional.md)
+  * [함수형 인터페이스](java/api/undefined.md)
 * [연동](java/undefined/README.md)
   * [JIRA (with Java)](java/undefined/jira-with-java.md)
 

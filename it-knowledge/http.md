@@ -234,13 +234,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### 웹 브라우저 요청 흐름
 
-![](<../.gitbook/assets/image (7) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 1. DNS 조회
 2. HTTPS PORT 생략(443)
 3. HTTP 요청 메시지 생성
 
-&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1).png>)
+&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
 
 
 
@@ -254,7 +254,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
    연결이 성공되면 TCP/IP 계층으로 데이터를 전달
 3. TCP/IP 패킷을 생성, HTTP 메세지도 포함
 
-![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1).png>)
+![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
@@ -504,7 +504,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 헤더
 
-![](<../.gitbook/assets/image (45) (1).png>)
+![](<../.gitbook/assets/image (45) (1) (1).png>)
 
 * header-field = field-name ":" OWS field-value OWS (OWS:띄어쓰기 채용)
 * field-name 은 대소문자 구문 없음
@@ -655,7 +655,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 클라이언트가 리소스 위치를 알고 URI 지정
   * POST와 차이점
 
-![PATCH](<../.gitbook/assets/image (19) (1).png>)
+![PATCH](<../.gitbook/assets/image (19) (1) (1).png>)
 
 #### PATCH
 
@@ -1260,7 +1260,7 @@ Quality Values(q)
 
 ### 특별한 정보
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../.gitbook/assets/image (45) (1).png>)
 
 * Host(요청한 호스트 정보(도메인))
   * 요청에서 사용
@@ -1316,7 +1316,7 @@ Stateless
 
 #### 쿠키 로그인
 
-![](<../.gitbook/assets/image (24) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 
@@ -1438,7 +1438,7 @@ Expires, max-age
 
 **두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 ![](<../.gitbook/assets/image (15).png>)
 

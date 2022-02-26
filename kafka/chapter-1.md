@@ -10,7 +10,7 @@ description: 들어가며
 
 ## 1.1 카프카의 탄생
 
-![Before Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
+![Before Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
 
 ![After Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
 

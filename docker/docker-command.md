@@ -18,7 +18,7 @@ ex) docker run hello-world
   command : docker run image-name ls\
   (ls 위치는 시작명령어를 무시하고 해당 커맨드를 실행)
 
-![](<../.gitbook/assets/image (7) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
 
 ex) docker run alpine ls
 
@@ -44,7 +44,7 @@ docker ps
 ex) docker ps
 {% endhint %}
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (35) (1).png>)
 
 1. CONTAINER ID : 컨테이너 고유한 아이디 해쉬값.
 2. IMAGE : 컨테이너 생성시 사용한 도커 이미지.

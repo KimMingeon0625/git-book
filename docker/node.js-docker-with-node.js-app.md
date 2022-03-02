@@ -121,11 +121,11 @@ local file을 복사한 것과 같이 network도 연결을 해주어야 한다.&
 Port mapping이 필요.
 {% endhint %}
 
-![](<../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png>)
 
 docker run -p 5000:8080 mingeon/nodejs 를 통해 실행.
 
-![설정한 local port 5000을 통해 접속.](<../.gitbook/assets/image (26) (1) (1) (1).png>)
+![설정한 local port 5000을 통해 접속.](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)
 
 ## Working Directory
 
@@ -196,11 +196,11 @@ COPY ./ ./
 CMD ["node", "server.js"]
 ```
 
-![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1) (1) (1) (1).png>)
 
 ## Docker Volume
 
-![](<../.gitbook/assets/image (29) (1) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
@@ -212,7 +212,7 @@ vscode powerShell 환경 : $(pwd) ->${pwd}
 
 ![](<../.gitbook/assets/image (41) (1).png>)
 
-![](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1) (1).png>)
 
 re-build 없이 매핑된 파일의 변경으로 적용.
 

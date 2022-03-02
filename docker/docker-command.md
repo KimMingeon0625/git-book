@@ -86,7 +86,7 @@ docker run image = docker create image-name\
 
 ### Docker Stop vs Docker Kill
 
-![](<../.gitbook/assets/image (8) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 {% hint style="info" %}
 container 정지

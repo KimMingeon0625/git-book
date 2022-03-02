@@ -43,7 +43,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 ### TCP, UDP
 
-![인터넷 프로토콜 스택의 4계층](<../.gitbook/assets/image (9) (1) (1).png>)
+![인터넷 프로토콜 스택의 4계층](<../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 #### **인터넷 프로토콜 스택의 4 계층**
 
@@ -75,7 +75,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 SYN : 접속 요청&#x20;
@@ -258,7 +258,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
-![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
@@ -406,13 +406,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
 
 
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 
 #### 비 연결성
 
@@ -451,7 +451,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 구조
 
-![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
+![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -655,7 +655,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 클라이언트가 리소스 위치를 알고 URI 지정
   * POST와 차이점
 
-![PATCH](<../.gitbook/assets/image (19) (1) (1).png>)
+![PATCH](<../.gitbook/assets/image (19) (1) (1) (1).png>)
 
 #### PATCH
 
@@ -689,7 +689,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 실제로는 GET,HEAD 정도만 캐시로 사용
     * POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 쉽지 않음.
 
-![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1).png>)
+![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1).png>)
 
 ## 5. HTTP 메서드 활용
 
@@ -918,7 +918,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동(리 다이렉트)
 
-![](<../.gitbook/assets/image (20) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1).png>)
 
 #### 종류
 
@@ -938,13 +938,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 301 Moved Permanently
   * 리다이렉트시 요청 메서드가 GET으로 변하고, 본문이 제거될 수 있음(MAY)
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (9) (1) (1).png>)
 
 * 308 Permanent Redirect
   * 301과 기능은 같음
   * 리다이렉트시 요청 메서드와 본문 유지(처음 POST를 보내면 리다이렉트도 POST)
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1).png>)
 
 #### 일시적인 리다이렉션 (302, 307,303)
 
@@ -1184,7 +1184,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 #### Accept-Language 복잡한 예시
 
-![](<../.gitbook/assets/image (25) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1).png>)
 
 #### 협상과 우선순위 1
 
@@ -1320,7 +1320,7 @@ Stateless
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (26) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1).png>)
 
 * ex)set-cookie:sessionId=abcde1234; expires=Sat,26-Dec-2022:00:00:00 GMT;path=/;[domain=.google.com](http://domain=.google.com);Secure
 * 사용처
@@ -1388,7 +1388,7 @@ Expires, max-age
 
 #### 캐시가 없을 때
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
 * 데이터가 변경되지 않아도 계속 네트워크를 통해서 데이터를 다운로드 받아야 한다.
 * 인터넷 네트워크는 매우 느리고 비싸다.
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.
@@ -1432,7 +1432,7 @@ Expires, max-age
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (28) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1).png>)
 
@@ -1552,7 +1552,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **Origin 서버**
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (26) (1).png>)
 
 #### 프록시 캐시 도입
 

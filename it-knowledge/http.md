@@ -92,7 +92,7 @@ ACK : 요청 수락
 1. 데이터 전송
 2. 데이터 수신 확인 메시지
 
-![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 **순서 보장**
 
@@ -142,7 +142,7 @@ ACK : 요청 수락
 * 전화번호부와 같은 역할
 * 도메인 명을 IP 주소로 변환
 
-![](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1).png>)
 
 ## 2. URI와 웹 브라우저 요청 흐름
 
@@ -158,7 +158,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ![](<../.gitbook/assets/image (43) (1).png>)
 
-![](<../.gitbook/assets/image (30) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1) (1) (1).png>)
 
 **URI 뜻**
 
@@ -240,13 +240,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 2. HTTPS PORT 생략(443)
 3. HTTP 요청 메시지 생성
 
-&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
+&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png>)
 
 
 
 #### HTTP 메시지 전송
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 1. 웹 브라우저가 HTTP 메세지를 생성
 2. SOCKET 라이브러리를 통해 TCP/IP계층에 전달\
@@ -412,7 +412,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 
 #### 비 연결성
 
@@ -689,7 +689,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 실제로는 GET,HEAD 정도만 캐시로 사용
     * POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 쉽지 않음.
 
-![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1).png>)
+![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1).png>)
 
 ## 5. HTTP 메서드 활용
 
@@ -918,7 +918,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동(리 다이렉트)
 
-![](<../.gitbook/assets/image (20) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1) (1).png>)
 
 #### 종류
 
@@ -1106,7 +1106,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 * Representation = representation Metadata + Representation Data
 * 표현 = 표현 메타데이터 + 표현 데이터
 
-![message body - RFC7230(최신)](<../.gitbook/assets/image (14) (1).png>)
+![message body - RFC7230(최신)](<../.gitbook/assets/image (14) (1) (1).png>)
 
 * 메시지 본문(message body)을 통해 표현 데이터 전달
 * 메시지 본문 = 페이로드(payload)
@@ -1316,9 +1316,9 @@ Stateless
 
 #### 쿠키 로그인
 
-![](<../.gitbook/assets/image (24) (1) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (26) (1) (1).png>)
 
@@ -1388,7 +1388,7 @@ Expires, max-age
 
 #### 캐시가 없을 때
 
-![](<../.gitbook/assets/image (29) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1).png>)
 
 * 데이터가 변경되지 않아도 계속 네트워크를 통해서 데이터를 다운로드 받아야 한다.
 * 인터넷 네트워크는 매우 느리고 비싸다.
@@ -1399,7 +1399,7 @@ Expires, max-age
 
 #### 첫번째 요청&#x20;
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 #### 두번째 요청&#x20;
 
@@ -1434,7 +1434,7 @@ Expires, max-age
 
 ![](<../.gitbook/assets/image (28) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 
 **두 번째 요청 - 캐시 시간 초과**
 
@@ -1498,7 +1498,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **ETag 두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (30) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (6) (1).png>)
 
@@ -1603,7 +1603,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 ![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1).png>)
 
 **must-revalidate**
 

@@ -31,7 +31,7 @@ public void printUser(String memberId) {
 * em.find(): 데이터베이스를 통해서 실제 엔티티 객체 조회
 * em.getReference(): 데이터베이스 조회를 미루는 가짜(프록시) 엔티티 객체 조회
 
-![](<../.gitbook/assets/image (30) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1).png>)
 
 ### 프록시 특징
 

@@ -61,7 +61,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (12) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 **TCP 특징**
 
@@ -254,7 +254,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
    연결이 성공되면 TCP/IP 계층으로 데이터를 전달
 3. TCP/IP 패킷을 생성, HTTP 메세지도 포함
 
-![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1).png>)
+![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
@@ -262,7 +262,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -385,7 +385,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 스케일 아웃 - 수평 확장 유리
 
-![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
 
 #### Statless
 
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1).png>)
 
 
 
@@ -431,7 +431,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 초기 - 연결, 종료 낭비
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 #### HTTP 지속 연결(Persistent Connections)
 
@@ -484,7 +484,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 응답 메시지
 
-![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1).png>)
+![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 
 
@@ -520,7 +520,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 바디
 
-![](<../.gitbook/assets/image (13) (1) (1) (1).png>)&#x20;
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)&#x20;
 
 * 실제 전송할 데이터
 * HTML 문서, 이미지, 영상, JSON 등등 byte로 표현할 수 있는 모든 데이터 전송 가능
@@ -643,7 +643,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### HTTP 메서드 - PUT, PATCH, DELETE
 
-![PUT](<../.gitbook/assets/image (13) (1) (1).png>)
+![PUT](<../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 #### PUT
 
@@ -661,7 +661,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 * 리소스 부분 변경
 
-![DELETE](<../.gitbook/assets/image (12) (1).png>)
+![DELETE](<../.gitbook/assets/image (12) (1) (1).png>)
 
 #### DELETE
 
@@ -1184,7 +1184,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 #### Accept-Language 복잡한 예시
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (25) (1).png>)
 
 #### 협상과 우선순위 1
 
@@ -1295,7 +1295,7 @@ Quality Values(q)
 
 #### 쿠키 미사용
 
-![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
 
 Stateless
 
@@ -1438,7 +1438,7 @@ Expires, max-age
 
 **두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (15) (1).png>)
 
@@ -1601,7 +1601,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **no-cache 기본 동작**
 
-![](<../.gitbook/assets/image (16) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1).png>)
 

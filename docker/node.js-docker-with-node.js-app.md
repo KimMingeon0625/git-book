@@ -196,13 +196,13 @@ COPY ./ ./
 CMD ["node", "server.js"]
 ```
 
-![](<../.gitbook/assets/image (25) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
 
 ## Docker Volume
 
 ![](<../.gitbook/assets/image (29) (1) (1).png>)
 
-![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 node\_modules = 종속성 다운로드 dir

@@ -11,7 +11,7 @@ description: 기본적인 지식 및 Apollo를 활용한 simple project
 * sql은 백엔드에서 주로 작성하지만, gql의 경우 주로 클라이언트 시스템에서 작성, 호출.
 * OverFetching, UnderFetching
 
-![출처 : https://2020.stateofjs.com/en-US/technologies/datalayer/](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1).png>)
+![출처 : https://2020.stateofjs.com/en-US/technologies/datalayer/](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png>)
 
 {% embed url="https://graphql.org/users" %}
 graphQL을 적용한 기업

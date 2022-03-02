@@ -50,7 +50,7 @@ Member member = em.getReference(Member.class, “id1”);
 member.getName();
 ```
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 ### 프록시의 특징
 

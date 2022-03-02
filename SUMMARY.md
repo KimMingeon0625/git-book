@@ -76,7 +76,7 @@
   * [Chapter 2](kafka/chapter-2.md)
   * [Chapter3](kafka/chapter3.md)
 
-## Git
+## Issue
 
-* [Issue](git/issue/README.md)
-  * [filePath:Zone.Identifier](git/issue/filepath-zone.identifier.md)
+* [Git](issue/git/README.md)
+  * [filePath:Zone.Identifier](issue/git/filepath-zone.identifier.md)

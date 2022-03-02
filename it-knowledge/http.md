@@ -1176,7 +1176,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 #### Accept-Language 적용 전
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 #### Accept-Language 적용 후
 

@@ -75,6 +75,7 @@
     * [07.KafkaLogFile](kafka/kafka/ch-02.-apache-kafka/07.kafkalogfile.md)
     * [08.ExactlyOnceSemantics(EOS)](kafka/kafka/ch-02.-apache-kafka/08.exactlyoncesemantics-eos.md)
     * [ExactlyOnceSemantics(EOS)2](kafka/kafka/ch-02.-apache-kafka/exactlyoncesemantics-eos-2.md)
+  * [Ch 03. Apache Kafka 구성 및 관리](kafka/kafka/ch-03.-apache-kafka.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

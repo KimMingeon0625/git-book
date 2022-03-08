@@ -45,6 +45,7 @@
   * [스웨거(Swagger) 3.0.0 with yaml](it-tech/swagger-3.0.0-with-yaml.md)
   * [더 자바, 애플리케이션을 테스트하는 다양한 방법](undefined/undefined/README.md)
     * [JUnit 5](undefined/undefined/junit-5.md)
+* [Page 1](page-1.md)
 
 ## Java
 
@@ -85,3 +86,5 @@
 
 * [Git](issue/git/README.md)
   * [filePath:Zone.Identifier](issue/git/filepath-zone.identifier.md)
+* [JPA](issue/jpa/README.md)
+  * [EntityNotFoundException](issue/jpa/entitynotfoundexception.md)

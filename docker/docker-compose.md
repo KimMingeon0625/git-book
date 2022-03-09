@@ -12,7 +12,7 @@ docker-compose up
 
 ### Docker Container간 통신 에러
 
-![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 서로 다른 컨테이너에 있는 경우 설정 없이는 접근 할 수 없다.

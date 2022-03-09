@@ -162,7 +162,7 @@ docker exec : 이미 실행중인 컨테이너에 명령어 전달.
 interactive(상호적인) terminal 의 약자.
 {% endhint %}
 
-![](<../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png>)
 
 redis 명령어
 

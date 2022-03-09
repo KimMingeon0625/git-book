@@ -126,7 +126,7 @@ ACK : 요청 수락
   * HTTP - 80
   * HTTPS - 443
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 
 
@@ -262,7 +262,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -1295,7 +1295,7 @@ Quality Values(q)
 
 #### 쿠키 미사용
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
 
 Stateless
 
@@ -1500,7 +1500,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 ![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1).png>)
 
 #### 정리
 
@@ -1601,7 +1601,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **no-cache 기본 동작**
 
-![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1).png>)
 

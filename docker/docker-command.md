@@ -44,7 +44,7 @@ docker ps
 ex) docker ps
 {% endhint %}
 
-![](<../.gitbook/assets/image (35) (1).png>)
+![](<../.gitbook/assets/image (35) (1) (1).png>)
 
 1. CONTAINER ID : 컨테이너 고유한 아이디 해쉬값.
 2. IMAGE : 컨테이너 생성시 사용한 도커 이미지.

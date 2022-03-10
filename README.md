@@ -2,7 +2,7 @@
 
 ## ![](.gitbook/assets/unnamed.png)
 
-
+{% embed url="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/30414887" %}
 
 Mingeon Kim
 

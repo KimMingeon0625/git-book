@@ -1,5 +1,20 @@
 # 😎 Today I Learned
 
+## ![](.gitbook/assets/unnamed.png)
+
+
+
+Mingeon Kim
+
+Research Engineer
+
+Phone: +82-10-7128-0308
+
+&#x20;
+
+SPARK\&ASSOCIATES INC.\
+43, Daesagwan-ro, Yongsan-gu, SEOUL, KOREA 04401
+
 ## 2022 - TODO
 
 * [ ] 상/  Kafka Cert (admin/client)

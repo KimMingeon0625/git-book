@@ -82,6 +82,7 @@
     * [03.Installation,ClusterConfiguration](kafka/kafka/ch-03.-apache-kafka/03.installation-clusterconfiguration.md)
     * [04.LogRetention,CleanupPolicy](kafka/kafka/ch-03.-apache-kafka/04.logretention-cleanuppolicy.md)
     * [05.KafkaClusterUpgrade,Expansion,Shrink](kafka/kafka/ch-03.-apache-kafka/05.kafkaclusterupgrade-expansion-shrink.md)
+  * [Ch04.ApacheKafkaConnect개념및이해](kafka/kafka/ch04.apachekafkaconnect.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

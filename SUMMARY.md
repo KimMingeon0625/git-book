@@ -96,3 +96,5 @@
   * [filePath:Zone.Identifier](issue/git/filepath-zone.identifier.md)
 * [JPA](issue/jpa/README.md)
   * [EntityNotFoundException](issue/jpa/entitynotfoundexception.md)
+* [Spring](issue/spring/README.md)
+  * [cannot deserialize from object value](issue/spring/cannot-deserialize-from-object-value.md)

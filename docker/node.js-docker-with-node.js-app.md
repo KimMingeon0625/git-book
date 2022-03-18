@@ -171,7 +171,7 @@ WorkDir 설정을 하는 경우, container 접속시 WorkDir이 첫화면이다.
 
 ## 재빌드 효율적으로 하는 법
 
-![](<../.gitbook/assets/image (22) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 npm insatll을 실행 할때 cache를 사용하기 위한 전략.

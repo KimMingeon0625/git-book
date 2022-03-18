@@ -27,7 +27,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 * 패킷은 전송하고자 하는 데이터의 한 블록(payload)과 주소지 정보(발신지 주소, 목적지 주소), 관리정보(Header, IPv6와 같이 망이 패킷을 목적지까지 전달하는데 필요한)로 구성된다.
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)
 
 #### **IP 프로토콜의 한계**
 
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
 
 
 
@@ -488,7 +488,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1) (1).png>)
 
 * start-line = status-line
 * status-line = HTTP-version SP status-code SP reason-phrase CRLF
@@ -689,7 +689,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 실제로는 GET,HEAD 정도만 캐시로 사용
     * POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 쉽지 않음.
 
-![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1).png>)
+![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1).png>)
 
 ## 5. HTTP 메서드 활용
 
@@ -918,7 +918,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동(리 다이렉트)
 
-![](<../.gitbook/assets/image (20) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1).png>)
 
 #### 종류
 
@@ -974,7 +974,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 새로고침해도 결과 화면을 GET으로 조회
 * 중복 주문 대신에 결과 화면만 GET으로 다시 요청
 
-![](<../.gitbook/assets/image (22) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1) (1).png>)
 
 * PRG 이후 리다이렉트
   * URL이 이미 POST → GET으로 리다이렉트 됨
@@ -1117,7 +1117,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 ### 표현
 
-![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
 * Content-Type: 표현 데이터의 형식
 * Content-Encoding: 표현 데이터의 압축 방식
@@ -1216,7 +1216,7 @@ Quality Values(q)
 
 Quality Values(q)
 
-![](<../.gitbook/assets/image (15) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
 
 * 구체적인 것을 기준으로 미디어 타입을 맞춘다.
 * Accept: text/\*;q=0.3, text/html;q=0.7, text/html;level=1, text.html;level=2;q=0.4, _/_;q=0.5
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.
@@ -1440,7 +1440,7 @@ Expires, max-age
 
 ![](<../.gitbook/assets/image (10) (1) (1).png>)
 
-![](<../.gitbook/assets/image (15) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1).png>)
 
 
 

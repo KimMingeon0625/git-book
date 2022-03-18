@@ -69,7 +69,7 @@ Container컨테이너를 사용하여 응용프로그램을 더 쉽게 만들고
 * 하이퍼 바이저는 호스트 시스템에서 다수의 **게스트 OS를 구동**할 수 있게 하는 소프트웨어,\
   그리고 하드웨어를 가상화하면서 하드웨어와 각각의 VM을모니터링 하는 **중간 관리자**.
 
-![](<../.gitbook/assets/image (34) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
 
@@ -133,4 +133,4 @@ OS/Arch: linux/amd64 를 확인 가능
 Docker는 Linux환경에서 동작하므로, 리눅스 기능이 사용 가능하다.
 {% endhint %}
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1) (1) (1).png>)

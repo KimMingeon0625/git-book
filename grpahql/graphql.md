@@ -32,7 +32,7 @@ graphQL을 적용한 기업
 
       (OverFetching : 불필요한 데이터가 포함됨 / UnderFetching : 여러번의 API 호출)
 
-![REST API와 GraphQL API의 사용 (출처 : https://blog.apollographql.com/graphql-vs-rest-5d425123e34b)](<../.gitbook/assets/image (39) (1).png>)
+![REST API와 GraphQL API의 사용 (출처 : https://blog.apollographql.com/graphql-vs-rest-5d425123e34b)](<../.gitbook/assets/image (39) (1) (1).png>)
 
 ### GraphQL 구조
 

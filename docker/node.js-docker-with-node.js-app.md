@@ -10,7 +10,7 @@ description: Docker with Node.js App
 
 ## Node.js 생성.
 
-![](<../.gitbook/assets/image (38) (1) (1).png>)
+![](<../.gitbook/assets/image (38) (1) (1) (1).png>)
 
 npm init : package.json 생성.
 

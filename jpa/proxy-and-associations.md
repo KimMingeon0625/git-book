@@ -50,7 +50,7 @@ Member member = em.getReference(Member.class, “id1”);
 member.getName();
 ```
 
-![](<../.gitbook/assets/image (13) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1).png>)
 
 ### 프록시의 특징
 
@@ -73,7 +73,7 @@ member.getName();
 
 #### println(member.getName());
 
-![](<../.gitbook/assets/image (33) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1).png>)
 
 ### 지연 로딩 LAZY을 사용해서 프록시로 조회
 

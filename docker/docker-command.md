@@ -18,7 +18,7 @@ ex) docker run hello-world
   command : docker run image-name ls\
   (ls 위치는 시작명령어를 무시하고 해당 커맨드를 실행)
 
-![](<../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png>)
 
 ex) docker run alpine ls
 
@@ -57,7 +57,7 @@ ex) docker ps
 
 #### 원하는 항목만 보기
 
-![](<../.gitbook/assets/image (33) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1) (1) (1).png>)
 
 docker ps --format 'table\{{.\~\~\~\}} \t table\{{\~\~\~\}}' (\t은 간격을 의미) &#x20;
 
@@ -82,7 +82,7 @@ docker ps -a
 docker run image = docker create image-name\
 &#x20;                                \+ docker start -a container-name/id ( -a옵션은 출력을 위해 설정)
 
-![](<../.gitbook/assets/image (42) (1).png>)
+![](<../.gitbook/assets/image (42) (1) (1).png>)
 
 ### Docker Stop vs Docker Kill
 

@@ -234,7 +234,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### 웹 브라우저 요청 흐름
 
-![](<../.gitbook/assets/image (7) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
 
 1. DNS 조회
 2. HTTPS PORT 생략(443)
@@ -385,7 +385,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 스케일 아웃 - 수평 확장 유리
 
-![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1).png>)
 
 #### Statless
 
@@ -431,7 +431,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 초기 - 연결, 종료 낭비
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 #### HTTP 지속 연결(Persistent Connections)
 
@@ -520,7 +520,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 바디
 
-![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)&#x20;
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)&#x20;
 
 * 실제 전송할 데이터
 * HTML 문서, 이미지, 영상, JSON 등등 byte로 표현할 수 있는 모든 데이터 전송 가능
@@ -643,7 +643,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### HTTP 메서드 - PUT, PATCH, DELETE
 
-![PUT](<../.gitbook/assets/image (13) (1) (1) (1).png>)
+![PUT](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
 
 #### PUT
 
@@ -1558,7 +1558,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (33) (1) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1) (1).png>)
 
 * 한국에 프록시 캐시 서버를 두고 한국의 클라이언트는 프록시 캐시서버를 통해 캐시를 가져온다.
 * 여러 사람이 찾은 자료는 이미 캐시에 등록이 되어 있으므로 빠르게 가져올 수 있다.

@@ -48,3 +48,6 @@ description: 개발자들 대화 혹은, 문서 등에서 나온 생소한 용�
 
 **참고:**[ **** https://toma0912.tistory.com/75](https://toma0912.tistory.com/75)
 
+### **PoC(Proof of Concept)** <a href="#se-370436c1-f877-4a6a-966a-3e9bad0cb858" id="se-370436c1-f877-4a6a-966a-3e9bad0cb858"></a>
+
+새로운 프로젝트가 실제로 실현 가능성이 있는가, 효과와 효용, 기술적인 관점에서부터 검증을 하는 과정을 의미**.**

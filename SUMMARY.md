@@ -88,7 +88,7 @@
     * [01.ApacheKafkaConnect](kafka/kafka/ch04.apachekafkaconnect/01.apachekafkaconnect.md)
     * [02.SingleMessageTransform(SMT),Converter](kafka/kafka/ch04.apachekafkaconnect/02.singlemessagetransform-smt-converter.md)
   * [Ch 05. Confluent Schema Registry 개념 및 이해](kafka/kafka/ch-05.-confluent-schema-registry/README.md)
-    * [Page 2](kafka/kafka/ch-05.-confluent-schema-registry/page-2.md)
+    * [01. Confluent Schema Registry](kafka/kafka/ch-05.-confluent-schema-registry/01.-confluent-schema-registry.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

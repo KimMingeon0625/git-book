@@ -102,3 +102,11 @@
   * [EntityNotFoundException](issue/jpa/entitynotfoundexception.md)
 * [Spring](issue/spring/README.md)
   * [cannot deserialize from object value](issue/spring/cannot-deserialize-from-object-value.md)
+
+## Book
+
+* [Java](book/java/README.md)
+  * [이펙티브 자바 (Effective Java 3/E)](book/java/effective-java-3-e.md)
+  * [모던 자바 인 액션(Modern Java in Action)](book/java/modern-java-in-action.md)
+* [Quality](book/quality/README.md)
+  * [클린 코드(Clean Code)](book/quality/clean-code.md)

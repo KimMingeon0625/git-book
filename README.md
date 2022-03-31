@@ -17,12 +17,9 @@ SPARK\&ASSOCIATES INC.\
 
 ## 2022 - TODO
 
-* &#x20;Kafka Cert (admin/client)
-* PA 심화 과정 수료 (인프런)
-* 쿠버네티스 과정 수료 (인프런)
-* Spring Batch&#x20;
-* GraphQL
-* 사내 기술 블로그 포스팅
-
-
-
+* [ ] Kafka 강의(패스트 캠프)
+* [ ] JPA 심화 과정 수료 (인프런)
+* [ ] 쿠버네티스 과정 수료 (인프런)
+* [ ] Spring Batch&#x20;
+* [ ] GraphQL 서버 구현
+* [ ] 사내 기술 블로그 포스팅

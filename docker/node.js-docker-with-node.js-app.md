@@ -10,7 +10,7 @@ description: Docker with Node.js App
 
 ## Node.js 생성.
 
-![](<../.gitbook/assets/image (38) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (38) (1) (1) (1) (1).png>)
 
 npm init : package.json 생성.
 
@@ -125,7 +125,7 @@ Port mapping이 필요.
 
 docker run -p 5000:8080 mingeon/nodejs 를 통해 실행.
 
-![설정한 local port 5000을 통해 접속.](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)
+![설정한 local port 5000을 통해 접속.](<../.gitbook/assets/image (26) (1) (1) (1) (1) (1).png>)
 
 ## Working Directory
 
@@ -159,7 +159,7 @@ CMD ["node", "server.js"]
 * docker build -t mingeon/nodejs ./
 * docker run -it mingeon/nodejs sh
 
-![](<../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1) (1).png>)
 
 WorkDir 설정을 하는 경우, container 접속시 WorkDir이 첫화면이다.
 
@@ -171,7 +171,7 @@ WorkDir 설정을 하는 경우, container 접속시 WorkDir이 첫화면이다.
 
 ## 재빌드 효율적으로 하는 법
 
-![](<../.gitbook/assets/image (22) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 npm insatll을 실행 할때 cache를 사용하기 위한 전략.
@@ -200,9 +200,9 @@ CMD ["node", "server.js"]
 
 ## Docker Volume
 
-![](<../.gitbook/assets/image (29) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 node\_modules = 종속성 다운로드 dir
@@ -212,7 +212,7 @@ vscode powerShell 환경 : $(pwd) ->${pwd}
 
 ![](<../.gitbook/assets/image (41) (1).png>)
 
-![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1) (1).png>)
 
 re-build 없이 매핑된 파일의 변경으로 적용.
 

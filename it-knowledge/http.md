@@ -52,7 +52,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 * 인터넷 계층 : 방대한 인터넷 계층에서 어디로 보낼지 경로를 선택하는 것이 IP게층이다. 이 자체로는 비연결 지향적이며 신뢰성이 없고 데이터를 전송한 이후 발생하는 문제에 대해서는 신경쓰지 않는다.
 * 네트워크 인터페이스 계층 : 물리적인 영역을 표준화 하는 계층으로 실제로 랜선을 꼽는 랜카드나 랜카드 드라이버등이 이에 속한다.
 
-![](<../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1).png>)
 
 1. 프로그램이 Hello,world! 메시지(Payload) 생성
 2. SOCKET 라이브러리를 통해 전달
@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1).png>)
 
 **데이터 전달 보증**
 
@@ -126,7 +126,7 @@ ACK : 요청 수락
   * HTTP - 80
   * HTTPS - 443
 
-![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
 
 
 
@@ -158,7 +158,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ![](<../.gitbook/assets/image (43) (1).png>)
 
-![](<../.gitbook/assets/image (30) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1) (1) (1) (1).png>)
 
 **URI 뜻**
 
@@ -254,11 +254,11 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
    연결이 성공되면 TCP/IP 계층으로 데이터를 전달
 3. TCP/IP 패킷을 생성, HTTP 메세지도 포함
 
-![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
+![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
-![](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
@@ -412,7 +412,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 
 #### 비 연결성
 
@@ -431,7 +431,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 초기 - 연결, 종료 낭비
 
-![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 #### HTTP 지속 연결(Persistent Connections)
 
@@ -601,7 +601,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 서버에 전달하고 싶은 데이터는 query(쿼리 파라미터, 쿼리 스트링)를 통해서 전달
 * 메시지 바디를 사용해서 데이터를 전달할 수 있지만, 지원하지 않는 곳이 많아서 권장하지 않음
 
-![POST](<../.gitbook/assets/image (44) (1) (1).png>)
+![POST](<../.gitbook/assets/image (44) (1) (1) (1).png>)
 
 #### POST
 
@@ -689,7 +689,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 실제로는 GET,HEAD 정도만 캐시로 사용
     * POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 쉽지 않음.
 
-![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1).png>)
+![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## 5. HTTP 메서드 활용
 
@@ -918,7 +918,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동(리 다이렉트)
 
-![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1).png>)
 
 #### 종류
 
@@ -944,7 +944,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 301과 기능은 같음
   * 리다이렉트시 요청 메서드와 본문 유지(처음 POST를 보내면 리다이렉트도 POST)
 
-![](<../.gitbook/assets/image (11) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 #### 일시적인 리다이렉션 (302, 307,303)
 
@@ -974,7 +974,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 새로고침해도 결과 화면을 GET으로 조회
 * 중복 주문 대신에 결과 화면만 GET으로 다시 요청
 
-![](<../.gitbook/assets/image (22) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1) (1) (1).png>)
 
 * PRG 이후 리다이렉트
   * URL이 이미 POST → GET으로 리다이렉트 됨
@@ -1176,11 +1176,11 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 #### Accept-Language 적용 전
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (36) (1) (1).png>)
 
 #### Accept-Language 적용 후
 
-![](<../.gitbook/assets/image (44) (1).png>)
+![](<../.gitbook/assets/image (44) (1) (1).png>)
 
 #### Accept-Language 복잡한 예시
 
@@ -1320,7 +1320,7 @@ Stateless
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (26) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1).png>)
 
 * ex)set-cookie:sessionId=abcde1234; expires=Sat,26-Dec-2022:00:00:00 GMT;path=/;[domain=.google.com](http://domain=.google.com);Secure
 * 사용처
@@ -1388,7 +1388,7 @@ Expires, max-age
 
 #### 캐시가 없을 때
 
-![](<../.gitbook/assets/image (29) (1) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1) (1).png>)
 
 * 데이터가 변경되지 않아도 계속 네트워크를 통해서 데이터를 다운로드 받아야 한다.
 * 인터넷 네트워크는 매우 느리고 비싸다.
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1) (1).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.
@@ -1438,7 +1438,7 @@ Expires, max-age
 
 **두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (10) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (15) (1) (1).png>)
 
@@ -1498,9 +1498,9 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **ETag 두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 #### 정리
 
@@ -1552,7 +1552,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **Origin 서버**
 
-![](<../.gitbook/assets/image (26) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1).png>)
 
 #### 프록시 캐시 도입
 

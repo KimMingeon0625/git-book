@@ -31,11 +31,11 @@ public void printUser(String memberId) {
 * em.find(): 데이터베이스를 통해서 실제 엔티티 객체 조회
 * em.getReference(): 데이터베이스 조회를 미루는 가짜(프록시) 엔티티 객체 조회
 
-![](<../.gitbook/assets/image (30) (1) (1).png>)
+![](<../.gitbook/assets/image (30) (1) (1) (1).png>)
 
 ### 프록시 특징
 
-![](<../.gitbook/assets/image (39) (1).png>)
+![](<../.gitbook/assets/image (39) (1) (1).png>)
 
 * 실제 클래스를 상속 받아서 만들어짐
 * 실제 클래스와 겉 모양이 같다.
@@ -94,13 +94,13 @@ member.getName();
 
 #### 지연 로딩
 
-![](<../.gitbook/assets/image (17) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1).png>)
 
 Member member = em.find(Member.class, 1L);
 
-![](<../.gitbook/assets/image (31) (1) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1) (1).png>)
 
 Team team = member.getTeam();&#x20;
 

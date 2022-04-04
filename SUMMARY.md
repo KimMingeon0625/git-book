@@ -89,6 +89,8 @@
       * [02.SingleMessageTransform(SMT),Converter](kafka/kafka-msa/part-1.-confluent-apache-kafka/ch04.apachekafkaconnect/02.singlemessagetransform-smt-converter.md)
     * [Ch 05. Confluent Schema Registry 개념 및 이해](kafka/kafka-msa/part-1.-confluent-apache-kafka/ch-05.-confluent-schema-registry/README.md)
       * [01. Confluent Schema Registry](kafka/kafka-msa/part-1.-confluent-apache-kafka/ch-05.-confluent-schema-registry/01.-confluent-schema-registry.md)
+    * [Ch 06. Kafka Streams와 ksqlDB 개념 및 이해](kafka/kafka-msa/part-1.-confluent-apache-kafka/ch-06.-kafka-streams-ksqldb/README.md)
+      * [01. Kafka Streams, ksqlDB](kafka/kafka-msa/part-1.-confluent-apache-kafka/ch-06.-kafka-streams-ksqldb/01.-kafka-streams-ksqldb.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/chapter-2.md)

@@ -27,7 +27,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 * 패킷은 전송하고자 하는 데이터의 한 블록(payload)과 주소지 정보(발신지 주소, 목적지 주소), 관리정보(Header, IPv6와 같이 망이 패킷을 목적지까지 전달하는데 필요한)로 구성된다.
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **IP 프로토콜의 한계**
 
@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1) (1).png>)
 
 **데이터 전달 보증**
 
@@ -142,7 +142,7 @@ ACK : 요청 수락
 * 전화번호부와 같은 역할
 * 도메인 명을 IP 주소로 변환
 
-![](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## 2. URI와 웹 브라우저 요청 흐름
 
@@ -234,7 +234,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### 웹 브라우저 요청 흐름
 
-![](<../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png>)
 
 1. DNS 조회
 2. HTTPS PORT 생략(443)
@@ -406,7 +406,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
 
 
 
@@ -1106,7 +1106,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 * Representation = representation Metadata + Representation Data
 * 표현 = 표현 메타데이터 + 표현 데이터
 
-![message body - RFC7230(최신)](<../.gitbook/assets/image (14) (1) (1).png>)
+![message body - RFC7230(최신)](<../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 * 메시지 본문(message body)을 통해 표현 데이터 전달
 * 메시지 본문 = 페이로드(payload)
@@ -1117,7 +1117,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 ### 표현
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)
 
 * Content-Type: 표현 데이터의 형식
 * Content-Encoding: 표현 데이터의 압축 방식
@@ -1216,7 +1216,7 @@ Quality Values(q)
 
 Quality Values(q)
 
-![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
 * 구체적인 것을 기준으로 미디어 타입을 맞춘다.
 * Accept: text/\*;q=0.3, text/html;q=0.7, text/html;level=1, text.html;level=2;q=0.4, _/_;q=0.5
@@ -1399,7 +1399,7 @@ Expires, max-age
 
 #### 첫번째 요청&#x20;
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 #### 두번째 요청&#x20;
 
@@ -1440,7 +1440,7 @@ Expires, max-age
 
 ![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (15) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
 
 
 

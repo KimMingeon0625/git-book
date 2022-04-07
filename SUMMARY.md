@@ -46,7 +46,8 @@
   * [소나큐브(SonarQube)](it-technology-concept/sonarqube.md)
   * [스웨거(Swagger) 3.0.0 with yaml](it-tech/swagger-3.0.0-with-yaml.md)
   * [더 자바, 애플리케이션을 테스트하는 다양한 방법](undefined/undefined/README.md)
-    * [JUnit 5](undefined/undefined/junit-5.md)
+    * [JUnit5](undefined/undefined/junit5/README.md)
+      * [JUnit 5란?](undefined/undefined/junit5/junit-5.md)
 
 ## Java
 

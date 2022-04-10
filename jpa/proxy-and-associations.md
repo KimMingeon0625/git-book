@@ -129,7 +129,7 @@ team.getName(); // 실제 team을 사용하는 시점에 초기화(DB 조회)
 
 즉시 로딩(EAGER), Member조회시 항상 Team도 조회
 
-![](<../.gitbook/assets/image (21) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
 
 JPA 구현체는 가능하면 조인을 사용해서 SQL 한번에 함께 조회
 

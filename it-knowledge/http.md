@@ -75,7 +75,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 SYN : 접속 요청&#x20;
@@ -451,7 +451,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 메시지 구조
 
-![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png>)
+![HTTP 메시지 구조](<../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png>)
 
 
 

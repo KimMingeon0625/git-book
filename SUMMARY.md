@@ -40,7 +40,7 @@
   * [IT 관련 용어](it-knowledge/it.md)
   * [Security](it-knowledge/security.md)
   * [A/B Test](it-knowledge/a-b-test.md)
-  * [Page 1](it-knowledge/page-1.md)
+  * [이슈](it-knowledge/undefined.md)
 * [Spring](spring/README.md)
   * [Annotation](spring/annotation.md)
   * [API](spring/api/README.md)

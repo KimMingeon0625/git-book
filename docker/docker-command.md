@@ -26,7 +26,7 @@ ex) docker run alpine ls
 
 ex) docker run hello-world ls
 
-![](<../.gitbook/assets/image (44) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (44) (1) (1) (1) (1) (1).png>)
 
 hello-world는 ls가 작동하지 않는것과 같이 image 마다 다른 명령어를 제공한다.
 
@@ -73,11 +73,11 @@ ex) docker ps --format 'table\{{.Names\}}\ttable\{{.Image\}}'
 docker ps -a
 {% endhint %}
 
-![](<../.gitbook/assets/image (40) (1).png>)
+![](<../.gitbook/assets/image (40) (1) (1).png>)
 
 ## 도커 컨테이너의 생명주기
 
-![](<../.gitbook/assets/image (23) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (23) (1) (1) (1) (1).png>)
 
 docker run image = docker create image-name\
 &#x20;                                \+ docker start -a container-name/id ( -a옵션은 출력을 위해 설정)

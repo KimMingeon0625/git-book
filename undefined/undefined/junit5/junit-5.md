@@ -8,7 +8,7 @@
   * “단위 테스트를 작성하는 자바 개발자 85% JUnit을 사용함.”
 * 자바 8 이상에서 사용 가능.
 
-![](<../../../.gitbook/assets/image (44) (1).png>)
+![](<../../../.gitbook/assets/image (44) (1) (1).png>)
 
 Platform:  테스트를 실행해주는 런처 제공. TestEngine API 제공.
 

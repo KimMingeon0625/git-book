@@ -112,7 +112,10 @@
     * [02. Kafka 빠르게 설치해보기](kafka/kafka-msa/part-2.-kafka-msa/02.-kafka.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
-  * [Chapter 2](kafka/chapter-2.md)
+  * [Chapter 2](kafka/with/chapter-2/README.md)
+    * [2.1 실습용 카프카 브로커 설치](kafka/with/chapter-2/2.1.md)
+    * [2.1 실습용 카프카 브로커 설치(ver.EC2)](kafka/with/chapter-2/2.1-ver.ec2.md)
+    * [2.2  카프카 커맨드 라인 툴](kafka/with/chapter-2/2.2.md)
   * [Chapter3](kafka/chapter3.md)
 
 ## Issue

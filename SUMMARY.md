@@ -123,6 +123,8 @@
   * [EntityNotFoundException](issue/jpa/entitynotfoundexception.md)
 * [Spring](issue/spring/README.md)
   * [cannot deserialize from object value](issue/spring/cannot-deserialize-from-object-value.md)
+* [IDE](issue/ide/README.md)
+  * [Error: Could not find or load main class Controller Caused by: java.lang.ClassNotFoundException: Con](issue/ide/error-could-not-find-or-load-main-class-controller-caused-by-java.lang.classnotfoundexception-con.md)
 
 ## Book
 

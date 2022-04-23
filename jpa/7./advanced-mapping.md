@@ -24,7 +24,7 @@
 
 ### 조인 전략
 
-![조인 전략 ](<../../.gitbook/assets/image (27) (1).png>)
+![조인 전략 ](<../../.gitbook/assets/image (27) (1) (1).png>)
 
 * 장점
   * 테이블 정규화

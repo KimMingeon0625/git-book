@@ -254,7 +254,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
    연결이 성공되면 TCP/IP 계층으로 데이터를 전달
 3. TCP/IP 패킷을 생성, HTTP 메세지도 포함
 
-![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
+![HTTP 메시지](<../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png>)
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
@@ -412,7 +412,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1).png>)
 
 #### 비 연결성
 
@@ -1318,7 +1318,7 @@ Stateless
 
 ![](<../.gitbook/assets/image (24) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (26) (1) (1) (1).png>)
 
@@ -1434,11 +1434,11 @@ Expires, max-age
 
 ![](<../.gitbook/assets/image (28) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 
 **두 번째 요청 - 캐시 시간 초과**
 
-![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (15) (1) (1) (1).png>)
 
@@ -1603,7 +1603,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 ![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 
 **must-revalidate**
 

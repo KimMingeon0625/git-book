@@ -110,7 +110,7 @@
   * [Part 2. 실무에서 쉽게 써보는 Kafka: 클러스터 구축부터 MSA 환경에서 활용까지](kafka/kafka-msa/part-2.-kafka-msa/README.md)
     * [01. Kafka 간단 요약](kafka/kafka-msa/part-2.-kafka-msa/01.-kafka.md)
     * [02. Kafka 빠르게 설치해보기](kafka/kafka-msa/part-2.-kafka-msa/02.-kafka.md)
-    * [Page 1](kafka/kafka-msa/part-2.-kafka-msa/page-1.md)
+    * [03. Kafka 클러스터 구축해보기](kafka/kafka-msa/part-2.-kafka-msa/03.-kafka.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [Chapter 1](kafka/chapter-1.md)
   * [Chapter 2](kafka/with/chapter-2/README.md)

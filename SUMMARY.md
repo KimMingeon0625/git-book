@@ -117,7 +117,11 @@
     * [2.1 실습용 카프카 브로커 설치](kafka/with/chapter-2/2.1.md)
     * [2.1 실습용 카프카 브로커 설치(ver.EC2)](kafka/with/chapter-2/2.1-ver.ec2.md)
     * [2.2  카프카 커맨드 라인 툴](kafka/with/chapter-2/2.2.md)
-  * [Chapter3](kafka/chapter3.md)
+  * [Chapter3](kafka/with/chapter3/README.md)
+    * [3.1 카프카 브로커, 클러스터, 주키퍼](kafka/with/chapter3/3.1.md)
+    * [3.2 토픽과 파티션](kafka/with/chapter3/3.2.md)
+    * [3.3 레코드](kafka/with/chapter3/3.3.md)
+    * [3.4 카프카 클라이언트](kafka/with/chapter3/3.4.md)
 
 ## Issue
 

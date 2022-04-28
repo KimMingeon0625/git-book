@@ -51,3 +51,15 @@ description: 개발자들 대화 혹은, 문서 등에서 나온 생소한 용�
 ### **PoC(Proof of Concept)** <a href="#se-370436c1-f877-4a6a-966a-3e9bad0cb858" id="se-370436c1-f877-4a6a-966a-3e9bad0cb858"></a>
 
 새로운 프로젝트가 실제로 실현 가능성이 있는가, 효과와 효용, 기술적인 관점에서부터 검증을 하는 과정을 의미**.**
+
+****
+
+## RBAC(Role Based Access Control)
+
+* **사용자에게 할당된 역할에 기반하여 접근 통제하는 기법**
+* 인적자원 관리자가 특정 부서 사용자들에게 같은 직무를 수행할 수 있는 접근 권한을 할당하는 것
+* 접근하려는 사용자와 자원이 어떻게 상호작용하는지 결정하여 중앙에서 집중적으로 관리한다.
+* BRAC를 위해 정의된 주요 규칙은 다음과 같다.
+  1. 역할 할당(Role Assignmnet)
+  2. 역할 권한 부여(Role Authorizatino)
+  3. 권한 부여(Permission Authorizaiont)

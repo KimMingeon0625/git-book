@@ -1,6 +1,6 @@
 ---
-description: 카프카 빠르게 시작해보기
+description: Chapter 2
 ---
 
-# Chapter 2
+# 2. 카프카 빠르게 시작해보기
 

@@ -125,6 +125,7 @@
     * [3.2 토픽과 파티션](kafka/with/3./3.2.md)
     * [3.3 레코드](kafka/with/3./3.3.md)
     * [3.4 카프카 클라이언트](kafka/with/3./3.4.md)
+    * [3.5 카프카 스트림즈](kafka/with/3./3.5.md)
 
 ## Issue
 

@@ -240,7 +240,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 2. HTTPS PORT 생략(443)
 3. HTTP 요청 메시지 생성
 
-&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png>)
+&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -655,7 +655,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 클라이언트가 리소스 위치를 알고 URI 지정
   * POST와 차이점
 
-![PATCH](<../.gitbook/assets/image (19) (1) (1) (1).png>)
+![PATCH](<../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
 
 #### PATCH
 
@@ -1316,7 +1316,7 @@ Stateless
 
 #### 쿠키 로그인
 
-![](<../.gitbook/assets/image (24) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 

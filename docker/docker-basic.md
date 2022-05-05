@@ -71,7 +71,7 @@ Container컨테이너를 사용하여 응용프로그램을 더 쉽게 만들고
 
 ![](<../.gitbook/assets/image (34) (1) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png>)
 
 #### 도커 컨테이너 & 가상 머신
 

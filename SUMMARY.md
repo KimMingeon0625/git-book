@@ -131,6 +131,7 @@
     * [3.3 레코드](kafka/with/3./3.3.md)
     * [3.4 카프카 클라이언트](kafka/with/3./3.4.md)
     * [3.5 카프카 스트림즈](kafka/with/3./3.5.md)
+    * [3.6 카프카 커넥트](kafka/with/3./3.6.md)
 
 ## Issue
 

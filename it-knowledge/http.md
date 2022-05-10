@@ -1432,7 +1432,7 @@ Expires, max-age
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (28) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 

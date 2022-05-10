@@ -61,7 +61,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
 
 **TCP 특징**
 
@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1) (1) (1).png>)
 
 **데이터 전달 보증**
 
@@ -234,7 +234,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 ### 웹 브라우저 요청 흐름
 
-![](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png>)
 
 1. DNS 조회
 2. HTTPS PORT 생략(443)
@@ -258,11 +258,11 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 4\. 서버는 패킷을 받으면 패킷의 내부 HTTP 메서드를 해석해서 정보에 맞는 동작.
 
-![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png>)
 
 5\. 서버에서 HTTP 응답 메세지를 생성
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 6\. 클라이언트에서는 응답메세지를 받아 맞는 동작(ex: 렌더링)
 
@@ -484,7 +484,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 응답 메시지
 
-![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1).png>)
+![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 
 
@@ -661,7 +661,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 * 리소스 부분 변경
 
-![DELETE](<../.gitbook/assets/image (12) (1) (1).png>)
+![DELETE](<../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 #### DELETE
 
@@ -944,7 +944,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 301과 기능은 같음
   * 리다이렉트시 요청 메서드와 본문 유지(처음 POST를 보내면 리다이렉트도 POST)
 
-![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
 
 #### 일시적인 리다이렉션 (302, 307,303)
 
@@ -1295,7 +1295,7 @@ Quality Values(q)
 
 #### 쿠키 미사용
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1).png>)
 
 Stateless
 
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.
@@ -1601,7 +1601,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **no-cache 기본 동작**
 
-![](<../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 

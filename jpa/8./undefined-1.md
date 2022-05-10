@@ -33,7 +33,7 @@
 
 Member member = em.find(Member.class, 1L);
 
-![](<../../.gitbook/assets/image (31) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (31) (1) (1) (1) (1) (1).png>)
 
 Team team = member.getTeam();&#x20;
 

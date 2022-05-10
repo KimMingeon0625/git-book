@@ -2,9 +2,7 @@
 description: 들어가며
 ---
 
-# Chapter 1
-
-
+# 1. 들어가며
 
 > '아파치 카프카 애플리케이션 프로그래밍 with 자바 - 최원영' 통한 정리 및 실습
 
@@ -12,7 +10,7 @@ description: 들어가며
 
 ![Before Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-![After Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png>)
+![After Kafka (https://bit.ly/3pIwdM8)](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png>)
 
 거대해진 아키텍처의 데이터 파이프라인이 복잡해지기 시작.
 

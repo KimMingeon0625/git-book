@@ -210,7 +210,7 @@ node\_modules = 종속성 다운로드 dir
 vscode powerShell 환경 : $(pwd) ->${pwd}
 {% endhint %}
 
-![](<../.gitbook/assets/image (41) (1).png>)
+![](<../.gitbook/assets/image (41) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1) (1) (1).png>)
 

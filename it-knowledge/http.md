@@ -61,7 +61,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png>)
 
 **TCP 특징**
 
@@ -484,7 +484,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 응답 메시지
 
-![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
+![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -661,7 +661,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 * 리소스 부분 변경
 
-![DELETE](<../.gitbook/assets/image (12) (1) (1) (1).png>)
+![DELETE](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 #### DELETE
 
@@ -1086,7 +1086,7 @@ ex) 출금하려는 고객의 잔고가 부족, 19금에 청소년 접근
 
 분류 - RFC2616(과거)
 
-![header](<../.gitbook/assets/image (41).png>)
+![header](<../.gitbook/assets/image (41) (1).png>)
 
 * General header : 메시지 전체에 적용되는 정보, ex) Connection: close
 * Request header : 요청 정보, ex) User-Agent:Mozilla/5.0 (Macintosh;..)

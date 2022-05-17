@@ -2,6 +2,10 @@
 
 ## 발생배경 <a href="#undefined" id="undefined"></a>
 
+```
+Executing an update/delete query; nested exception is javax.persistence.TransactionRequiredException: Executing an update/delete query
+```
+
 * sheduler에서 트랜잭션을 관리하던 중 오류 발생.(JPA 사용)
 
 ## 원인

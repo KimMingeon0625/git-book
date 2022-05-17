@@ -150,9 +150,9 @@
   * [filePath:Zone.Identifier](issue/git/filepath-zone.identifier.md)
 * [JPA](issue/jpa/README.md)
   * [EntityNotFoundException](issue/jpa/entitynotfoundexception.md)
+  * [@Scheduled 실행 시, Transaction처리](issue/jpa/scheduled-transaction.md)
 * [Spring](issue/spring/README.md)
   * [cannot deserialize from object value](issue/spring/cannot-deserialize-from-object-value.md)
-  * [@Scheduled 실행 시, Transaction처리](issue/spring/scheduled-transaction.md)
 * [IDE](issue/ide/README.md)
   * [Error: Could not find or load main class Controller Caused by: java.lang.ClassNotFoundException: Con](issue/ide/error-could-not-find-or-load-main-class-controller-caused-by-java.lang.classnotfoundexception-con.md)
 

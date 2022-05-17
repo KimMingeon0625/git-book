@@ -15,7 +15,7 @@
 
 ### 주요 어노테이션
 
-* @Inheritance(\[[strategy=InheritanceType.XXX](http://strategy=inheritancetype.xxx)]\([http://strategy](http://strategy)%[3Dinheritancetype.xxx/](http://3dinheritancetype.xxx)))
+* @Inheritance(\[[strategy=InheritanceType.XXX](http://strategy=inheritancetype.xxx)]\([http://strategy](http://strategy)%[3Dinheritancetype.xxx/](http://3dinheritancetype.xxx/)))
   * JOINED: 조인 전략
   * SINGLE\_TABLE: 단일 테이블 전략
   * TABLE\_PER\_CLASS: 구현 클래스마다 테이블 전략

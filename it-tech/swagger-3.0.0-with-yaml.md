@@ -276,7 +276,7 @@ security:
 [Basic Structure](https://swagger.io/docs/specification/basic-structure/)
 
 Example YAML 예제들 출처\
-[Swagger Editor](https://editor.swagger.io)
+[Swagger Editor](https://editor.swagger.io/)
 
 Detail Object\
 [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#infoObject)

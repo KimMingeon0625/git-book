@@ -130,6 +130,7 @@
       * [03.PublishMessages이론](kafka/kafka-msa/part-3.-spring-for-apache-kafka/ch-02.-spring-for-kafka/03.publishmessages.md)
       * [04.PublishMessages실습](kafka/kafka-msa/part-3.-spring-for-apache-kafka/ch-02.-spring-for-kafka/04.publishmessages.md)
       * [05. Consume Messages 이론](kafka/kafka-msa/part-3.-spring-for-apache-kafka/ch-02.-spring-for-kafka/05.-consume-messages.md)
+      * [06. Consume Message 실습](kafka/kafka-msa/part-3.-spring-for-apache-kafka/ch-02.-spring-for-kafka/06.-consume-message.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [1. 들어가며](kafka/chapter-1.md)
   * [2. 카프카 빠르게 시작해보기](kafka/with/chapter-2/README.md)

@@ -150,6 +150,7 @@
 
 * [Git](issue/git/README.md)
   * [filePath:Zone.Identifier](issue/git/filepath-zone.identifier.md)
+  * [git 자동 로그인(VS Code)](issue/git/git-vs-code.md)
 * [JPA](issue/jpa/README.md)
   * [EntityNotFoundException](issue/jpa/entitynotfoundexception.md)
   * [@Scheduled 실행 시, Transaction처리](issue/jpa/scheduled-transaction.md)

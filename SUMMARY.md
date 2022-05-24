@@ -60,6 +60,7 @@
   * [더 자바, 애플리케이션을 테스트하는 다양한 방법](undefined/undefined/README.md)
     * [JUnit5](undefined/undefined/junit5/README.md)
       * [JUnit 5란?](undefined/undefined/junit5/junit-5.md)
+  * [VScode로 SSH를 통해 원격서버 접속](undefined/vscode-ssh.md)
 
 ## Java
 

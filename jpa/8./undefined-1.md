@@ -33,7 +33,7 @@
 
 Member member = em.find(Member.class, 1L);
 
-![](<../../.gitbook/assets/image (31) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (31) (1) (1) (1) (1) (1) (1).png>)
 
 Team team = member.getTeam();&#x20;
 
@@ -58,7 +58,7 @@ team.getName(); // 실제 team을 사용하는 시점에 초기화(DB 조회)
 
 #### 즉시 로딩
 
-![](<../../.gitbook/assets/image (32) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (32) (1) (1) (1) (1).png>)
 
 즉시 로딩(EAGER), Member조회시 항상 Team도 조회
 

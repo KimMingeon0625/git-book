@@ -24,7 +24,7 @@
 
 ### 조인 전략
 
-![조인 전략 ](<../../.gitbook/assets/image (27) (1) (1).png>)
+![조인 전략 ](<../../.gitbook/assets/image (27) (1) (1) (1).png>)
 
 * 장점
   * 테이블 정규화
@@ -62,7 +62,7 @@
 
 ## Mapped Superclass - 매핑 정보 상속
 
-![](<../../.gitbook/assets/image (32) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)
 
 * 상속관계 매핑X
 * 엔티티X, 테이블과 매핑X

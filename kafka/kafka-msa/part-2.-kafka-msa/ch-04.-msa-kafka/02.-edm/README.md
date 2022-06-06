@@ -28,7 +28,7 @@ MSA에서는 각 서비스가 디비를 가지고 있으며, 각 MS가 API로 �
 
 ![](<../../../../../.gitbook/assets/image (37).png>)
 
-![](<../../../../../.gitbook/assets/image (31).png>)
+![](<../../../../../.gitbook/assets/image (31) (1).png>)
 
 {% hint style="info" %}
 SAGA 패턴이란 마이크로서비스들끼리 이벤트를 주고 받아 특정 마이크로서비스에서의 작업이 실패하면, 이전까지의 작업이 완료된 마이크서비스들에게 보상(complemetary) 이벤트를 소싱함으로써 분산 환경에서 원자성(atomicity)을 보장하는 패턴입니다.

@@ -8,7 +8,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 ### 인터넷 통신
 
-![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 클라이언트에서 다른 클라이언트(컴퓨터)로 데이터를 보낼경우 위치에따라 위성, 해저광케이블, 기타 통신서버와 같은 노드들을 거쳐서 상대 클라이언트에 도달한다.
 
@@ -85,7 +85,7 @@ ACK : 요청 수락
 참고 : 3.ACK와 함께 데이터 전송 가능
 {% endhint %}
 
-![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 **데이터 전달 보증**
 
@@ -240,7 +240,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 2. HTTPS PORT 생략(443)
 3. HTTP 요청 메시지 생성
 
-&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1).png>)
+&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -406,13 +406,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1) (1).png>)
 
 
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### 비 연결성
 
@@ -457,9 +457,9 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 요청 메시지
 
-![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1).png>)
+![HTTP 요청 메시지 ](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1).png>)
 
 * start-line = request-line
 * request-line = method SP(공백) request-target SP HTTP-version CRLF(엔터)
@@ -488,7 +488,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1) (1) (1).png>)
 
 * start-line = status-line
 * status-line = HTTP-version SP status-code SP reason-phrase CRLF
@@ -504,7 +504,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 헤더
 
-![](<../.gitbook/assets/image (45) (1) (1).png>)
+![](<../.gitbook/assets/image (45) (1) (1) (1).png>)
 
 * header-field = field-name ":" OWS field-value OWS (OWS:띄어쓰기 채용)
 * field-name 은 대소문자 구문 없음
@@ -593,7 +593,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * CONNECT : 대상 자원으로 식별되는 서버에 대한 터널을 설정
 * TRACE : 대상 리소스에 대한 경로를 따라 메시지 루프백 테스트를 수행
 
-![GET](<../.gitbook/assets/image (18) (1) (1) (1) (1).png>)
+![GET](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png>)
 
 #### GET
 
@@ -1184,13 +1184,13 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 #### Accept-Language 복잡한 예시
 
-![](<../.gitbook/assets/image (25) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1) (1).png>)
 
 #### 협상과 우선순위 1
 
 Quality Values(q)
 
-![](<../.gitbook/assets/image (18) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1) (1).png>)
 
 * Quality Values(q) 값 사용
 * 0\~1, 클수록 높은 우선 순위
@@ -1260,7 +1260,7 @@ Quality Values(q)
 
 ### 특별한 정보
 
-![](<../.gitbook/assets/image (45) (1).png>)
+![](<../.gitbook/assets/image (45) (1) (1).png>)
 
 * Host(요청한 호스트 정보(도메인))
   * 요청에서 사용
@@ -1316,11 +1316,11 @@ Stateless
 
 #### 쿠키 로그인
 
-![](<../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (26) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)
 
 * ex)set-cookie:sessionId=abcde1234; expires=Sat,26-Dec-2022:00:00:00 GMT;path=/;[domain=.google.com](http://domain=.google.com);Secure
 * 사용처
@@ -1403,7 +1403,7 @@ Expires, max-age
 
 #### 두번째 요청&#x20;
 
-![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 * 캐시 덕분에 캐시 가능 시간 동안 네트워크를 사용하지 않아도 된다.
 * 비싼 네트워크 사용량을 줄일 수 있다.
@@ -1434,7 +1434,7 @@ Expires, max-age
 
 ![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 
 **두 번째 요청 - 캐시 시간 초과**
 
@@ -1552,7 +1552,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **Origin 서버**
 
-![](<../.gitbook/assets/image (26) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1).png>)
 
 #### 프록시 캐시 도입
 
@@ -1603,7 +1603,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 ![](<../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 
 **must-revalidate**
 

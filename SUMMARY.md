@@ -61,6 +61,7 @@
     * [JUnit5](undefined/undefined/junit5/README.md)
       * [JUnit 5란?](undefined/undefined/junit5/junit-5.md)
   * [VScode로 SSH를 통해 원격서버 접속](undefined/vscode-ssh.md)
+  * [Jira 설치](undefined/jira.md)
 
 ## Java
 

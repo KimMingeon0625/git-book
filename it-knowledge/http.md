@@ -61,7 +61,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png>)
 
 **TCP 특징**
 
@@ -126,7 +126,7 @@ ACK : 요청 수락
   * HTTP - 80
   * HTTPS - 443
 
-![](<../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -240,7 +240,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 2. HTTPS PORT 생략(443)
 3. HTTP 요청 메시지 생성
 
-&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1) (1).png>)
+&#x20;![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -484,7 +484,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 응답 메시지
 
-![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
+![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -661,7 +661,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 * 리소스 부분 변경
 
-![DELETE](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
+![DELETE](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
 
 #### DELETE
 
@@ -689,7 +689,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 실제로는 GET,HEAD 정도만 캐시로 사용
     * POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 쉽지 않음.
 
-![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1).png>)
+![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## 5. HTTP 메서드 활용
 
@@ -918,7 +918,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동(리 다이렉트)
 
-![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### 종류
 
@@ -1086,7 +1086,7 @@ ex) 출금하려는 고객의 잔고가 부족, 19금에 청소년 접근
 
 분류 - RFC2616(과거)
 
-![header](<../.gitbook/assets/image (41) (1).png>)
+![header](<../.gitbook/assets/image (41) (1) (1).png>)
 
 * General header : 메시지 전체에 적용되는 정보, ex) Connection: close
 * Request header : 요청 정보, ex) User-Agent:Mozilla/5.0 (Macintosh;..)
@@ -1316,7 +1316,7 @@ Stateless
 
 #### 쿠키 로그인
 
-![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1).png>)
 
@@ -1500,7 +1500,7 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 ![](<../.gitbook/assets/image (30) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
 
 #### 정리
 

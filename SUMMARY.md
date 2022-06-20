@@ -146,6 +146,8 @@
       * [05. 실습 아키텍처 소개](kafka/kafka-msa/part-4.-kafka/ch01.apachekafka/05..md)
     * [Ch 02. Apache Kafka 모니터링을 위한 Metric 이해](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/README.md)
       * [01.ProducerMetric상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/01.producermetric.md)
+      * [02.KafkaBrokerMetric상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/02.kafkabrokermetric.md)
+      * [03.ConsumerMetric상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/03.consumermetric.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [1. 들어가며](kafka/chapter-1.md)
   * [2. 카프카 빠르게 시작해보기](kafka/with/chapter-2/README.md)

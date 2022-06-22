@@ -61,7 +61,7 @@ description: Inflearn '모든 개발자를위한 HTTP 웹 기본 지식' 강의 
 
 
 
-![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 **TCP 특징**
 
@@ -406,13 +406,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### 연결을 유지하는 모델
 
-![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (25) (1) (1) (1) (1) (1) (1).png>)
 
 
 
 #### 연결을 유지하지 않는 모델
 
-![](<../.gitbook/assets/image (26) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### 비 연결성
 
@@ -484,7 +484,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 #### HTTP 응답 메시지
 
-![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png>)
+![HTTP 응답 메시지](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png>)
 
 
 
@@ -655,13 +655,13 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 클라이언트가 리소스 위치를 알고 URI 지정
   * POST와 차이점
 
-![PATCH](<../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
+![PATCH](<../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png>)
 
 #### PATCH
 
 * 리소스 부분 변경
 
-![DELETE](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
+![DELETE](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png>)
 
 #### DELETE
 
@@ -689,7 +689,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
   * 실제로는 GET,HEAD 정도만 캐시로 사용
     * POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 쉽지 않음.
 
-![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![출처 : 위키 피디아](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## 5. HTTP 메서드 활용
 
@@ -918,7 +918,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 
 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동(리 다이렉트)
 
-![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### 종류
 
@@ -1184,7 +1184,7 @@ RFC2616 -> RFC7230 \~ 7235 표준 변경
 
 #### Accept-Language 복잡한 예시
 
-![](<../.gitbook/assets/image (25) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
 
 #### 협상과 우선순위 1
 
@@ -1320,7 +1320,7 @@ Stateless
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1) (1).png>)
 
 * ex)set-cookie:sessionId=abcde1234; expires=Sat,26-Dec-2022:00:00:00 GMT;path=/;[domain=.google.com](http://domain=.google.com);Secure
 * 사용처
@@ -1552,13 +1552,13 @@ If-Modified-Since : 이후에 데이터가 수정되었으면?
 
 **Origin 서버**
 
-![](<../.gitbook/assets/image (26) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1) (1) (1).png>)
 
 #### 프록시 캐시 도입
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (33) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1) (1) (1).png>)
 
 * 한국에 프록시 캐시 서버를 두고 한국의 클라이언트는 프록시 캐시서버를 통해 캐시를 가져온다.
 * 여러 사람이 찾은 자료는 이미 캐시에 등록이 되어 있으므로 빠르게 가져올 수 있다.

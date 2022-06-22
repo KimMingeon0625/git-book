@@ -6,7 +6,7 @@
 
 #### println(member.getName());
 
-![](<../../.gitbook/assets/image (33) (1) (1).png>)
+![](<../../.gitbook/assets/image (33) (1) (1) (1).png>)
 
 ### 지연 로딩 LAZY을 사용해서 프록시로 조회
 

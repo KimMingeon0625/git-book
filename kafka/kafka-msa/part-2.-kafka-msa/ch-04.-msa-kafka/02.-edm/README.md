@@ -2,7 +2,7 @@
 
 ## EDM + Kafka 실습환경 구축
 
-![](<../../../../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 * 상품 주문의 프로세스
 
@@ -50,7 +50,7 @@ SAGA 패턴이란 마이크로서비스들끼리 이벤트를 주고 받아 특�
 
 ### Orchestration based SAGA pattern
 
-![](<../../../../../.gitbook/assets/image (12) (1).png>)
+![](<../../../../../.gitbook/assets/image (12) (1) (1).png>)
 
 #### **장점**
 

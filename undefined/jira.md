@@ -124,7 +124,7 @@ Install i, Exit e
 
 2\. 내장 DB사용
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 3\.&#x20;
 
@@ -132,7 +132,7 @@ Install i, Exit e
 
 4\. 라이센스 키 입력
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 5\. 이메일 알림 설정
 

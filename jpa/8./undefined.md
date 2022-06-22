@@ -35,7 +35,7 @@ public void printUser(String memberId) {
 
 ### 프록시 특징
 
-![](<../../.gitbook/assets/image (39) (1) (1).png>)
+![](<../../.gitbook/assets/image (39) (1) (1) (1).png>)
 
 * 실제 클래스를 상속 받아서 만들어짐
 * 실제 클래스와 겉 모양이 같다.

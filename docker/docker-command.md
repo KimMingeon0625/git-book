@@ -57,7 +57,7 @@ ex) docker ps
 
 #### 원하는 항목만 보기
 
-![](<../.gitbook/assets/image (33) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1) (1) (1) (1).png>)
 
 docker ps --format 'table\{{.\~\~\~\}} \t table\{{\~\~\~\}}' (\t은 간격을 의미) &#x20;
 

@@ -1,6 +1,6 @@
 # Ch 04. MSA 환경에서의 Kafka 활용
 
-![](<../../../../.gitbook/assets/image (28).png>)
+![](<../../../../.gitbook/assets/image (28) (1).png>)
 
 ## Monolithic
 

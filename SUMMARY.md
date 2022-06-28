@@ -149,7 +149,7 @@
       * [02.KafkaBrokerMetric상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/02.kafkabrokermetric.md)
       * [03.ConsumerMetric상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/03.consumermetric.md)
       * [04. Zookeeper & Host Metric 상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/04.-zookeeper-and-host-metric.md)
-    * [Ch03.ApacheKafka모니터링시스템구축](kafka/kafka-msa/part-4.-kafka/ch03.apachekafka/README.md)
+    * [Ch03.ApacheKafka모니터링시스템구축](kafka/kafka-msa/part-4.-kafka/ch03.apachekafka.md)
       * [01. GCP에서 Kafka 구성하기 (1)](kafka/kafka-msa/part-4.-kafka/ch03.apachekafka/01.-gcp-kafka-1.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [1. 들어가며](kafka/chapter-1.md)

@@ -974,7 +974,7 @@ URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 �
 * 새로고침해도 결과 화면을 GET으로 조회
 * 중복 주문 대신에 결과 화면만 GET으로 다시 요청
 
-![](<../.gitbook/assets/image (22) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1) (1) (1) (1) (1).png>)
 
 * PRG 이후 리다이렉트
   * URL이 이미 POST → GET으로 리다이렉트 됨
@@ -1388,7 +1388,7 @@ Expires, max-age
 
 #### 캐시가 없을 때
 
-![](<../.gitbook/assets/image (29) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1) (1) (1).png>)
 
 * 데이터가 변경되지 않아도 계속 네트워크를 통해서 데이터를 다운로드 받아야 한다.
 * 인터넷 네트워크는 매우 느리고 비싸다.
@@ -1432,7 +1432,7 @@ Expires, max-age
 
 **첫 번째 요청**
 
-![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 

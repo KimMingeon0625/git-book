@@ -151,6 +151,7 @@
       * [04. Zookeeper & Host Metric 상세](kafka/kafka-msa/part-4.-kafka/ch-02.-apache-kafka-metric/04.-zookeeper-and-host-metric.md)
     * [Ch03.ApacheKafka모니터링시스템구축](kafka/kafka-msa/part-4.-kafka/ch03.apachekafka.md)
       * [01. GCP에서 Kafka 구성하기 (1)](kafka/kafka-msa/part-4.-kafka/ch03.apachekafka/01.-gcp-kafka-1.md)
+      * [02.GCP에서Kafka구성하기(2)](kafka/kafka-msa/part-4.-kafka/ch03.apachekafka/02.gcp-kafka-2.md)
 * [아파치 카프카 애플리케이션 프로그래밍 with 자바](kafka/README.md)
   * [1. 들어가며](kafka/chapter-1.md)
   * [2. 카프카 빠르게 시작해보기](kafka/with/chapter-2/README.md)
